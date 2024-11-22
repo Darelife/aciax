@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <div>
-      <Nav text="ACIAX" />
+      <Nav text="ACIAX : The Academic Information Exchange Hub For BITS Goa" />
       <br />
       <div style={{ position: "relative" }}>
         {items.map((item, index) => (
