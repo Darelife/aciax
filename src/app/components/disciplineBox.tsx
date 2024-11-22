@@ -10,7 +10,7 @@ type DisciplineBoxProps = {
 export default function DisciplineBox({ text, className, style, link }: DisciplineBoxProps) {
   return (
     <div className={`text-green-400 font-mono text-lg draggable discipline-box ${className}`} style={style}>
-      <a href={link}>[{text}]</a>
+      <a href={link}>{`>${text}`}</a>
     </div>
   );
 }
