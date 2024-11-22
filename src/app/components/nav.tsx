@@ -7,7 +7,7 @@ type NavProps = {
 export default function Nav({ text }: NavProps) {
   return (
     <div className="text-green-500 font-mono text-xl">
-      {text}
+      <a href="./">{text}</a>
     </div>
   );
 }

@@ -1,24 +1,12 @@
 "use client";
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Draggable } from '@syncfusion/ej2-base';
 import DisciplineBox from './components/disciplineBox';
 import Nav from './components/nav';
 
 export default function Home() {
-  useEffect(() => {
-    const draggableElements = document.querySelectorAll('.draggable');
-    draggableElements.forEach((element) => {
-      new Draggable(element as HTMLElement, { clone: false });
-
-      // Prevent default touch behavior to avoid accidental page reloads
-      element.addEventListener('touchstart', (event) => {
-        event.preventDefault();
-      }, { passive: false });
-    });
-  }, []);
-
-  const items = [
+  const [items, setItems] = useState([
     { text: "computer science", link: "/cse" },
     { text: "pheonix", link: "/elec" },
     { text: "mechanical", link: "/mech" },
@@ -29,7 +17,50 @@ export default function Home() {
     { text: "chemistry", link: "/chem" },
     { text: "biology", link: "/bio" },
     { text: "first year", link: "/fy" },
-  ];
+  ]);
+
+  useEffect(() => {
+    const draggableElements = document.querySelectorAll('.draggable');
+    draggableElements.forEach((element, index) => {
+      let startX: number;
+      let startY: number;
+
+      new Draggable(element as HTMLElement, {
+        clone: false,
+        dragStop: (args) => {
+          const rect = args.element.getBoundingClientRect();
+          const windowWidth = window.innerWidth;
+
+          if (rect.right >= windowWidth) {
+            // Remove the item if its right edge touches or exceeds the page boundary
+            setItems((prevItems) => prevItems.filter((_, i) => i !== index));
+          }
+        },
+      });
+
+      // Prevent default touch behavior to avoid accidental page reloads
+      element.addEventListener('touchstart', (event) => {
+        event.preventDefault();
+        const touch = event.touches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
+      }, { passive: false });
+
+      element.addEventListener('touchend', (event) => {
+        const touch = event.changedTouches[0];
+        const endX = touch.clientX;
+        const endY = touch.clientY;
+        const distance = Math.sqrt((endX - startX) ** 2 + (endY - startY) ** 2);
+
+        if (distance < 10) { // Treat as a click if the drag distance is very low
+          const link = items[index].link;
+          if (link) {
+            window.location.href = link;
+          }
+        }
+      });
+    });
+  }, [items]);
 
   return (
     <div>
