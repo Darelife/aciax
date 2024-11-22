@@ -56,7 +56,7 @@ body {
 
 /* disciplineBox.css */
 .discipline-box {
-  text-shadow: 0 0 10px #96fc96;
+  text-shadow: 0 0 6.5px #96fc96;
   color: #01e201; /* Retro green color */
   display: inline-block;
   transition: transform 0.2s;
