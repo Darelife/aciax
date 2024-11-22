@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { Draggable } from '@syncfusion/ej2-base';
+import { DragEventArgs, Draggable } from '@syncfusion/ej2-base';
 import DisciplineBox from './components/disciplineBox';
 import Nav from './components/nav';
 
@@ -27,26 +27,28 @@ export default function Home() {
 
       new Draggable(element as HTMLElement, {
         clone: false,
-        dragStop: (args) => {
-          const rect = args.element.getBoundingClientRect();
-          const windowWidth = window.innerWidth;
+        dragStop: (args: DragEventArgs) => {
+          if (args.element) {
+            const rect = args.element.getBoundingClientRect();
+            const windowWidth = window.innerWidth;
 
-          if (rect.right >= windowWidth) {
-            // Remove the item if its right edge touches or exceeds the page boundary
-            setItems((prevItems) => prevItems.filter((_, i) => i !== index));
+            if (rect.right >= windowWidth) {
+              // Remove the item if its right edge touches or exceeds the page boundary
+              setItems((prevItems) => prevItems.filter((_, i) => i !== index));
+            }
           }
         },
       });
 
       // Prevent default touch behavior to avoid accidental page reloads
-      element.addEventListener('touchstart', (event) => {
+      element.addEventListener('touchstart', (event: TouchEvent) => {
         event.preventDefault();
         const touch = event.touches[0];
         startX = touch.clientX;
         startY = touch.clientY;
       }, { passive: false });
 
-      element.addEventListener('touchend', (event) => {
+      element.addEventListener('touchend', (event: TouchEvent) => {
         const touch = event.changedTouches[0];
         const endX = touch.clientX;
         const endY = touch.clientY;
@@ -59,6 +61,7 @@ export default function Home() {
           }
         }
       });
+
     });
   }, [items]);
 
