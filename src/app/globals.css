@@ -37,7 +37,7 @@ body {
     rgba(255, 255, 255, 0.009) 10px,
     rgba(255, 255, 255, 0.009) 20px
   );
-  animation: moveLines 1.25s linear infinite;
+  /* animation: moveLines 1.25s linear infinite; */
   pointer-events: none; /* Ensure the lines don't interfere with interactions */
 }
 
@@ -56,7 +56,7 @@ body {
 
 /* disciplineBox.css */
 .discipline-box {
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px #96fc96;
   color: #01e201; /* Retro green color */
   display: inline-block;
   transition: transform 0.2s;
