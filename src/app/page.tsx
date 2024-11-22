@@ -41,15 +41,17 @@ export default function Home() {
       });
 
       // Prevent default touch behavior to avoid accidental page reloads
-      element.addEventListener('touchstart', (event: TouchEvent) => {
-        event.preventDefault();
-        const touch = event.touches[0];
+      element.addEventListener('touchstart', (event) => {
+        const touchEvent = event as TouchEvent;
+        touchEvent.preventDefault();
+        const touch = touchEvent.touches[0];
         startX = touch.clientX;
         startY = touch.clientY;
       }, { passive: false });
 
-      element.addEventListener('touchend', (event: TouchEvent) => {
-        const touch = event.changedTouches[0];
+      element.addEventListener('touchend', (event) => {
+        const touchEvent = event as TouchEvent;
+        const touch = touchEvent.changedTouches[0];
         const endX = touch.clientX;
         const endY = touch.clientY;
         const distance = Math.sqrt((endX - startX) ** 2 + (endY - startY) ** 2);
@@ -61,6 +63,7 @@ export default function Home() {
           }
         }
       });
+
 
     });
   }, [items]);
