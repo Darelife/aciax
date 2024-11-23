@@ -2,12 +2,11 @@
   "cse": {
     "f222" : {
       "Books": {
-        "Rosen Discrete Mathematics and Its Applications 7th Edition" : "csf222/books/rosen.pdf",
-        "Solutions to Rosen" : "csf222/books/rosenSol.pdf"
+        "Rosen Discrete Mathematics and Its Applications 7th Edition" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf"
       },
       "Comprehensive Exam":{
-        "2023 Eval":"csf222/compre/discoCompre2023.pdf",
-        "2023 Solution":"csf222/compre/discoCompre2023sol.pdf"
+        "2023 Eval":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023.pdf",
+        "2023 Solution":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023sol.pdf"
       }
     }
   }
