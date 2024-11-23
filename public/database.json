@@ -2,7 +2,8 @@
   "cse": {
     "f222" : {
       "Books": {
-        "Rosen Discrete Mathematics and Its Applications 7th Edition" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf"
+        "Rosen Discrete Mathematics and Its Applications 7th Edition" : "csf222/books/rosen.pdf",
+        "Solutions to Rosen" : "csf222/books/rosenSol.pdf"
       },
       "Comprehensive Exam":{
         "2023 Eval":"csf222/compre/discoCompre2023.pdf",
