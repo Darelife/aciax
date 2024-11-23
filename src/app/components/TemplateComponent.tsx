@@ -4,7 +4,7 @@ import Nav from './nav';
 
 type TemplateComponentProps = {
   category: string;
-  items: { text: string; link: { [key: string]: string[] } }[];
+  items: { text: string; link: { [key: string]: string } }[];
 };
 
 export default function TemplateComponent({ category, items }: TemplateComponentProps) {

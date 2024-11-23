@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react';
 import TemplateComponent from '../../components/TemplateComponent';
 
 export default function Home() {
-  const [items, setItems] = useState<{ text: string; link: { [key: string]: string[] } }[]>([]);
+  const [items, setItems] = useState<{ text: string; link: { [key: string]: string } }[]>([]);
+
 
   useEffect(() => {
     fetch('/database.json')
