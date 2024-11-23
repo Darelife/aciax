@@ -30,13 +30,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     0deg,
     transparent,
     transparent 10px,
-    rgba(255, 255, 255, 0.009) 10px,
-    rgba(255, 255, 255, 0.009) 20px
-  );
+    rgba(255, 255, 255, 0.003) 10px,
+    rgba(255, 255, 255, 0.003) 20px
+  ); */
   /* animation: moveLines 1.25s linear infinite; */
   pointer-events: none; /* Ensure the lines don't interfere with interactions */
 }
