@@ -26,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
+      <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="5de5ffeb-c580-435a-9896-0bb0171edc34"></script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased vsc-initialized`}
       >
