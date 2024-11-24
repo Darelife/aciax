@@ -45,9 +45,11 @@ export default function TemplateComponent({ category, items }: TemplateComponent
                 }}
               >
                 {Object.keys(item.link).map((heading, headingIndex) => (
-                  <div key={headingIndex}>
-                    {/* <h3>{heading}</h3> */}
-                    <a target="_blank" href={item.link[heading]}>{heading}</a>
+                  <div key={headingIndex} className="text-[#a3a3a3]">
+                    <a target="_blank" href={item.link[heading]}>
+                      {/* {'>_ '}<span className="text-[#01e201]">{item.text}\</span>{heading} */}
+                      <span className="text-[#01e201]">{'>_ '}</span>{heading}
+                    </a>
                   </div>
                 ))}
               </div>
