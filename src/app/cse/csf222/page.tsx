@@ -11,9 +11,9 @@ export default function Home() {
     fetch('/database.json')
       .then((response) => response.json())
       .then((data) => {
-        const items = Object.keys(data.cse.f222).map((key) => ({
+        const items = Object.keys(data.cse.csf222).map((key) => ({
           text: key,
-          link: data.cse.f222[key],
+          link: data.cse.csf222[key],
         }));
         setItems(items);
       });

@@ -29,9 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased vsc-initialized`}
       >
+        <Analytics />
         {children}
       </body>
-      <Analytics />
     </html>
   );
 }
