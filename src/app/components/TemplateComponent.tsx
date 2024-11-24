@@ -30,7 +30,7 @@ export default function TemplateComponent({ category, items }: TemplateComponent
                 <DisciplineBox
                   text={item.text}
                   style={{ position: 'relative', display: 'block' }}
-                  toggle={expandedItems.includes(index) ? "▼ " : "▶ "}
+                  toggle={expandedItems.includes(index) ? "▼ " : "> "}
                 />
               </div>
               <div 
