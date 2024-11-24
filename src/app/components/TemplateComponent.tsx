@@ -46,9 +46,11 @@ export default function TemplateComponent({ category, items }: TemplateComponent
               >
                 {Object.keys(item.link).map((heading, headingIndex) => (
                   <div key={headingIndex} className="text-[#a3a3a3]">
-                    <a target="_blank" href={item.link[heading]}>
-                      {/* {'>_ '}<span className="text-[#01e201]">{item.text}\</span>{heading} */}
-                      <span className="text-[#01e201]">{'>_ '}</span>{heading}
+                    <a target="_blank" href={item.link[heading]} className="overflow-ellipsis">
+                      <span className="text-[#01e201]">{'>_ '}</span>
+                      <span className="overflow-ellipsis">
+                        {heading.length > 33 ? `${heading.slice(0, 30)}...` : heading}
+                      </span>
                     </a>
                   </div>
                 ))}

@@ -72,6 +72,10 @@ body {
   text-decoration: none; /* Remove underline from link */
 }
 
+.overflow-ellipsis {
+  white-space: nowrap;
+}
+
 /* @keyframes blink {
   0% {
     background-color: #0f0f23;
