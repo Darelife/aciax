@@ -8,7 +8,7 @@ import Nav from './components/nav';
 export default function Home() {
   const [items, setItems] = useState([
     { text: "computer science", link: "/cse" },
-    { text: "pheonix", link: "/elec" },
+    { text: "phoenix", link: "/elec" },
     { text: "mechanical", link: "/mech" },
     { text: "chemical", link: "/ch" },
     { text: "economics", link: "/eco" },

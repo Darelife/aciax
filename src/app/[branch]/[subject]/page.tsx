@@ -63,7 +63,7 @@ export default function Home() {
         }
         setItems(items);
       });
-  }, []);
+  });
 
   
 
