@@ -10,7 +10,7 @@
         "2023 Solution":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023sol.pdf",
         "2022 Eval + Solution" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c1ad187b37b25b18855d5b8041beb1c5cbc71f5e/cse/f222/compre/discoCompre2022.pdf"
       }
-    }, 
+    },
     "csf211" : {
       "abc" : {
         "def" : "ghi"
@@ -20,7 +20,19 @@
   "elec" : {
     "ece221" : {
       "Books": {
-        "Sedra Smith Microelectronics" : "abc"
+        "abc" : "abc"
+      }
+    }
+  },
+  "math" : {
+    "mathf211" : {
+      "Handouts" : {
+        "2024-25" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/e157be6b4633f131c7e61a235ca6a45b32c0b3f7/math/f211/handout/2024-25.pdf"
+      },
+      "Comprehensive Exam" : {
+        "2023 Part A + Solution" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/e157be6b4633f131c7e61a235ca6a45b32c0b3f7/math/f211/compre/2023_ComprePartA.pdf",
+        "2023 Part B Eval" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/e157be6b4633f131c7e61a235ca6a45b32c0b3f7/math/f211/compre/2023_ComprePartB.pdf",
+        "2023 Part B Solution" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/e157be6b4633f131c7e61a235ca6a45b32c0b3f7/math/f211/compre/2023_ComprePartBSolution.pdf"
       }
     }
   }
