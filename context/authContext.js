@@ -37,6 +37,8 @@
 
 // export default AuthContext;
 
+"use client";
+
 import { createContext, useState, useEffect } from "react";
 import { auth, signInWithPopup, provider, signOut } from "../lib/firebase";
 

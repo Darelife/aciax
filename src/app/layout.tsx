@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
 import { AuthProvider } from "../../context/AuthContext";
+import { Suspense } from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,16 +27,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="5de5ffeb-c580-435a-9896-0bb0171edc34"></script>
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="5de5ffeb-c580-435a-9896-0bb0171edc34"
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased vsc-initialized`}
       >
         <AuthProvider>
-          <Analytics />
-          {children}
+          <Suspense fallback={<div>Loading...</div>}>
+            <Analytics />
+            {children}
+          </Suspense>
         </AuthProvider>
       </body>
     </html>
