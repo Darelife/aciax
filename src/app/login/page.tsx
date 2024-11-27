@@ -3,6 +3,8 @@
 import { useContext, useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import AuthContext from '../../../context/AuthContext';
+import jwt from 'jsonwebtoken';
+import Cookies from 'js-cookie';
 
 const Login = () => {
   const { login, logout, user, error } = useContext(AuthContext);
@@ -10,8 +12,10 @@ const Login = () => {
   const searchParams = useSearchParams();
   const [notValid, setNotValid] = useState(false);
   const [email, setEmail] = useState("");
+  const thing = "bitCadAciaxFTW";
 
   useEffect(() => {
+    // const token = Cookies.get("token");
     if (user) {
       console.log("Email:", user?.email || "No email yet");
       setEmail(user.email);
@@ -20,6 +24,8 @@ const Login = () => {
       } else if (user.email) {
         const redirectTo = searchParams.get("redirectTo") || "/";
         router.push(redirectTo);
+        const token = jwt.sign({ email: user.email }, thing);
+        Cookies.set("auth", token, { expires: 1 });
       }
     }
   }, [user, router, searchParams]);

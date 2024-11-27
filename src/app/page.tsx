@@ -6,8 +6,11 @@ import DisciplineBox from './components/disciplineBox';
 import Nav from './components/nav';
 import withAuth from '../../hoc/withAuth';
 import AuthContext from '../../context/AuthContext';
+import Cookies from 'js-cookie';
+import { useRouter } from 'next/navigation';
 
 function Home() {
+  const router = useRouter();
   const { logout } = useContext(AuthContext);
   const [items, setItems] = useState([
     { text: "computer science", link: "/cse" },
@@ -70,11 +73,16 @@ function Home() {
 
     });
   }, [items]);
+  const handleLogout = () => {
+    Cookies.remove('auth');
+    logout();
+    router.push('/login');
+  };
 
   return (
     <div>
       <Nav text="ACIAX : The Academic Information Exchange Hub For BITS Goa" />
-      <button onClick={logout}>Logout</button>
+      <button onClick={handleLogout}>Logout</button>
       <br />
       <div style={{ position: "relative" }}>
         {items.map((item, index) => (

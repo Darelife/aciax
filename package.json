@@ -12,7 +12,10 @@
     "@syncfusion/ej2-base": "^27.2.2",
     "@vercel/analytics": "^1.4.1",
     "firebase": "^11.0.2",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^8.5.1",
     "next": "15.0.3",
+    "nprogress": "^0.2.0",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
