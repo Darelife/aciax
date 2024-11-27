@@ -2,8 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import TemplateComponent from '../../components/TemplateComponent';
+import withAuth from '../../../../hoc/withAuth';
 
-export default function Home() {
+function Home() {
   const [items, setItems] = useState<{ text: string; link: { [key: string]: string } }[]>([]);
 
 
@@ -21,3 +22,5 @@ export default function Home() {
 
   return <TemplateComponent category="CS F222 : Discrete Structures for Computer Science" items={items} />;
 }
+
+export default withAuth(Home);

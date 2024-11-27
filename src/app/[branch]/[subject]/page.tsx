@@ -4,8 +4,9 @@ import React, { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import TemplateComponent from '../../components/TemplateComponent';
 import NotFound from 'next/error';
+import withAuth from '../../../../hoc/withAuth';
 
-export default function Home() {
+function Home() {
   const pathname = usePathname();
   const branch = pathname.split('/')[1];
   const subject = pathname.split('/')[2];
@@ -59,3 +60,5 @@ export default function Home() {
     return <NotFound statusCode={404} />;
   }
 }
+
+export default withAuth(Home);

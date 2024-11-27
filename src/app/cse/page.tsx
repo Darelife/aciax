@@ -3,8 +3,9 @@
 import React, { useState } from 'react';
 import DisciplineBox from '../components/disciplineBox';
 import Nav from '../components/nav';
+import withAuth from '../../../hoc/withAuth';
 
-export default function Home() {
+function Home() {
   const [items] = useState([
     { text: "CS F111: Computer Programming", link: "/cse/csf111" },
     { text: "CS F222: Discrete Structures", link: "/cse/csf222" },
@@ -29,3 +30,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default withAuth(Home);

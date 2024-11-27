@@ -1,11 +1,14 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { DragEventArgs, Draggable } from '@syncfusion/ej2-base';
 import DisciplineBox from './components/disciplineBox';
 import Nav from './components/nav';
+import withAuth from '../../hoc/withAuth';
+import AuthContext from '../../context/AuthContext';
 
-export default function Home() {
+function Home() {
+  const { logout } = useContext(AuthContext);
   const [items, setItems] = useState([
     { text: "computer science", link: "/cse" },
     { text: "phoenix", link: "/elec" },
@@ -71,6 +74,7 @@ export default function Home() {
   return (
     <div>
       <Nav text="ACIAX : The Academic Information Exchange Hub For BITS Goa" />
+      <button onClick={logout}>Logout</button>
       <br />
       <div style={{ position: "relative" }}>
         {items.map((item, index) => (
@@ -86,3 +90,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default withAuth(Home);
