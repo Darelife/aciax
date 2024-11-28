@@ -6,6 +6,7 @@ import AuthContext from "../context/AuthContext";
 import LoadingIndicator from "../src/app/components/LoadingIndicator";
 import jwt from "jsonwebtoken";
 import Cookies from "js-cookie";
+import CryptoJS from "crypto-js";
 
 const withAuth = (WrappedComponent) => {
   const WithAuthComponent = (props) => {
@@ -13,12 +14,15 @@ const withAuth = (WrappedComponent) => {
     const router = useRouter();
     const [loading, setLoading] = useState(true);
 
-    const thing = "bitCadAciaxFTW";
+    const thing = process.env.NEXT_PUBLIC_COOKIE_SECRET;
 
     useEffect(() => {
-      const token = Cookies.get("auth");
-      if (token) {
+      const tokenn = Cookies.get("auth");
+      if (tokenn) {
         try {
+          const token = CryptoJS.AES.decrypt(tokenn, thing).toString(
+            CryptoJS.enc.Utf8
+          );
           const decoded = jwt.verify(token, thing);
           if (decoded.email.endsWith("@goa.bits-pilani.ac.in")) {
             setLoading(false);
@@ -34,7 +38,7 @@ const withAuth = (WrappedComponent) => {
       } else {
         setLoading(false);
       }
-    }, [user, router]);
+    }, [user, router, thing]);
 
     if (loading) {
       return <LoadingIndicator />;

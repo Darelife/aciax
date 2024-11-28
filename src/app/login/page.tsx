@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import AuthContext from '../../../context/AuthContext';
 import jwt from 'jsonwebtoken';
 import Cookies from 'js-cookie';
+import CryptoJs from 'crypto-js';
 
 const Login = () => {
   const { login, logout, user, error } = useContext(AuthContext);
@@ -12,7 +13,8 @@ const Login = () => {
   const searchParams = useSearchParams();
   const [notValid, setNotValid] = useState(false);
   const [email, setEmail] = useState("");
-  const thing = "bitCadAciaxFTW";
+  // const thing = "bitCadAciaxFTW";
+  const thing = process.env.NEXT_PUBLIC_COOKIE_SECRET;
 
   useEffect(() => {
     // const token = Cookies.get("token");
@@ -24,11 +26,12 @@ const Login = () => {
       } else if (user.email) {
         const redirectTo = searchParams.get("redirectTo") || "/";
         router.push(redirectTo);
-        const token = jwt.sign({ email: user.email }, thing);
-        Cookies.set("auth", token, { expires: 1 });
+        const token:string = jwt.sign({ email: user.email }, thing);
+        const encryptedToken = CryptoJs.AES.encrypt(token, thing).toString();
+        Cookies.set("auth", encryptedToken, { expires: 1 });
       }
     }
-  }, [user, router, searchParams]);
+  }, [user, router, searchParams, thing]);
 
   useEffect(() => {
     if (notValid) {
