@@ -21,6 +21,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
+  /* -webkit-user-drag: none; */
 }
 
 ::before {
