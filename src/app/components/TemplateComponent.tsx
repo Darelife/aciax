@@ -32,14 +32,10 @@ export default function TemplateComponent({ category, items }: TemplateComponent
           element.classList.remove('dragging');
         },
       });
-
-      // Prevent default drag behavior on the link elements
-      const linkElements = element.querySelectorAll('a');
-      linkElements.forEach((linkElement) => {
-        linkElement.addEventListener('dragstart', (event) => {
-          event.preventDefault();
-        });
-      });
+      // Prevent default touch actions to avoid pull-to-refresh
+      element.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+      }, { passive: false }); // Passive: false allows preventDefault
     });
   }, [items]);
 

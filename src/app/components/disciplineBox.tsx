@@ -11,10 +11,10 @@ type DisciplineBoxProps = {
 export default function DisciplineBox({ text, className, style, link, toggle }: DisciplineBoxProps) {
   const arrow = toggle ? toggle : '>';
   // replace all spaces with "\0"
-  text = text.replace(/ /g, '\0');
+  // text = text.replace(/ /g, '\0');
   return (
     <div className={`text-green-400 font-mono text-lg draggable discipline-box ${className}`} style={style}>
-      <a href={link}>{`${arrow}${text}`}</a>
+      <a href={link}><span className="dontWrap">{`${arrow}${text}`}</span></a>
     </div>
   );
 }

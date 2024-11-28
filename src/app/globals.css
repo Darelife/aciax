@@ -16,6 +16,11 @@
   }
 }
 
+.dontWrap {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
