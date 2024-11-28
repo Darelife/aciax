@@ -14,7 +14,7 @@ const Login = () => {
   const [notValid, setNotValid] = useState(false);
   const [email, setEmail] = useState("");
   // const thing = "bitCadAciaxFTW";
-  const thing = process.env.NEXT_PUBLIC_COOKIE_SECRET;
+  const thing:string = process.env.NEXT_PUBLIC_COOKIE_SECRET as string;
 
   useEffect(() => {
     // const token = Cookies.get("token");
