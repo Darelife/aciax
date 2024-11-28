@@ -12,7 +12,10 @@ function Home() {
   const branches = ['/cse', '/elec', '/mech', '/ch', '/eco', '/math', '/phy', '/chem', '/bio', '/fy'];
   const branchTag: { [key: string]: string } = {
     "/cse": "Computer Science Engineering",
-    "/elec": "Electrical Engineering",
+    "/mnc": "Mathematics and Computer Engineering",
+    "/ece": "Electronics and Communication Engineering",
+    "/eee": "Electrical and Electronics Engineering",
+    "/eni": "Electronics and Instrumentation Engineering",
     "/mech": "Mechanical Engineering",
     "/ch": "Chemical Engineering",
     "/eco": "MSc. Economics",
@@ -22,6 +25,10 @@ function Home() {
     "/bio": "MSc. Biological Sciences",
     "/fy": "First Year"
   };
+  // const branchName: { [key: string]: string } = {
+  //   "/cse" : "CS",
+  //   "/elec" : "Phoenix",
+  // }
   const [subjects, setSubjects] = useState<string[]>([]);
   const [accepted, setAccepted] = useState(false);
 

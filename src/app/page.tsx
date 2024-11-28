@@ -12,9 +12,13 @@ import { useRouter } from 'next/navigation';
 function Home() {
   const router = useRouter();
   const { logout } = useContext(AuthContext);
-  const [items, setItems] = useState([
+  const [items] = useState([
     { text: "computer science", link: "/cse" },
-    { text: "phoenix", link: "/elec" },
+    // { text: "phoenix", link: "/elec" },
+    { text: "math n comp", link: "/mnc" },
+    { text: "electronics n comm", link: "/ece" },
+    { text: "electrical n electronics", link: "/eee" },
+    { text: "electronics n instrumentation", link: "/eni" },
     { text: "mechanical", link: "/mech" },
     { text: "chemical", link: "/ch" },
     { text: "economics", link: "/eco" },
@@ -40,7 +44,10 @@ function Home() {
 
             if (rect.right >= windowWidth) {
               // Remove the item if its right edge touches or exceeds the page boundary
-              setItems((prevItems) => prevItems.filter((_, i) => i !== index));
+                if (items[index].text !== "computer science") {
+                  // items.splice(index, 1);
+                  args.element.style.display = 'none';
+                }
             }
           }
         },
