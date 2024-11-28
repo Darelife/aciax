@@ -9,7 +9,7 @@ import withAuth from '../../../hoc/withAuth';
 
 function Home() {
   const pathname = usePathname();
-  const branches = ['/cse', '/mnc', '/ece', '/eee', 'eni', '/mech', '/ch', '/eco', '/math', '/phy', '/chem', '/bio', '/fy'];
+  const branches = ['/cse', '/mnc', '/ece', '/eee', 'eni', '/mech', '/ch', '/eco', '/math', '/phy', '/chem', '/bio', '/bits'];
   const branchTag: { [key: string]: string } = {
     "/cse": "Computer Science Engineering",
     "/mnc": "Mathematics and Computer Engineering",
@@ -23,12 +23,9 @@ function Home() {
     "/phy": "MSc. Physics",
     "/chem": "MSc. Chemistry",
     "/bio": "MSc. Biological Sciences",
-    "/fy": "First Year"
+    "/bits": "Bits"
   };
-  // const branchName: { [key: string]: string } = {
-  //   "/cse" : "CS",
-  //   "/elec" : "Phoenix",
-  // }
+  
   const [subjects, setSubjects] = useState<string[]>([]);
   const [accepted, setAccepted] = useState(false);
 

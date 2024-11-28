@@ -26,7 +26,7 @@ function Home() {
     { text: "physics", link: "/phy" },
     { text: "chemistry", link: "/chem" },
     { text: "biology", link: "/bio" },
-    { text: "first year", link: "/fy" },
+    { text: "bits", link: "/bits" },
   ]);
 
   useEffect(() => {

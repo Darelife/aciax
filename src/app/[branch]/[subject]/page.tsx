@@ -17,6 +17,22 @@ function Home() {
   const [loading, setLoading] = useState(true); // Introduce a loading state
   const [subjectTag, setSubjectTag] = useState<string>('');
 
+  const branchName: { [key: string]: string } = {
+    "cse" : "CS",
+    "mnc" : "MNC",
+    "ece" : "ECE",
+    "eee" : "EEE",
+    "eni" : "ENI",
+    "mech" : "MECH",
+    "ch" : "CHE",
+    "eco" : "ECO",
+    "math" : "MATH",
+    "phy" : "PHY",
+    "chem" : "CHEM",
+    "bio" : "BIO",
+    "bits" : "BITS"
+  }
+
   useEffect(() => {
     setLoading(true); // Start loading
     fetch('/database.json')
@@ -53,7 +69,7 @@ function Home() {
   if (accepted) {
     return (
       <div>
-        <TemplateComponent category={`CS F${subject.slice(-3)} : ${subjectTag}`} items={items} />
+        <TemplateComponent category={`${branchName[branch.toLowerCase()]} F${subject.slice(-3)} : ${subjectTag}`} items={items} />
       </div>
     );
   } else {
