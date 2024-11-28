@@ -9,7 +9,7 @@ import withAuth from '../../../hoc/withAuth';
 
 function Home() {
   const pathname = usePathname();
-  const branches = ['/cse', '/elec', '/mech', '/ch', '/eco', '/math', '/phy', '/chem', '/bio', '/fy'];
+  const branches = ['/cse', '/mnc', '/ece', '/eee', 'eni', '/mech', '/ch', '/eco', '/math', '/phy', '/chem', '/bio', '/fy'];
   const branchTag: { [key: string]: string } = {
     "/cse": "Computer Science Engineering",
     "/mnc": "Mathematics and Computer Engineering",
