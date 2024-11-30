@@ -1,7 +1,8 @@
 {
   "cse":{
     "csf222" : "Discrete Structures for CS",
-    "csf211" : "Data Structures and Algorithms"
+    "csf211" : "Data Structures and Algorithms",
+    "csf214" : "Logic in Computer Science"
   },
   "math":{
     "mathf211" : "Mathematics III (M3)"

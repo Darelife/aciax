@@ -28,9 +28,12 @@ function Home() {
   
   const [subjects, setSubjects] = useState<string[]>([]);
   const [accepted, setAccepted] = useState(false);
+  const [subjectNames, setSubjectNames] = useState<{ [key: string]: string }>({});
+  const [branchName, setBranch] = useState<string>('');
 
   useEffect(() => {
     const branch = pathname.slice(1); // Remove leading slash
+    setBranch(branch);
     if (branches.includes(`/${branch}`)) {
       setAccepted(true);
       fetch('/database.json')
@@ -41,6 +44,11 @@ function Home() {
             setSubjects(Object.keys(branchData));
           }
         });
+      fetch('/subjectNames.json')
+        .then((response) => response.json())
+        .then((data) => {
+          setSubjectNames(data);
+        });
     } else {
       setAccepted(false);
     }
@@ -50,6 +58,7 @@ function Home() {
   if (!accepted) {
     return <NotFound statusCode={404} />;
   }
+  console.log(subjectNames);
 
   return (
     <div>
@@ -60,7 +69,7 @@ function Home() {
         {subjects.map((subject, index) => (
           <DisciplineBox
             key={index}
-            text={subject}
+            text={`${subject.toUpperCase()} : ${subjectNames[branchName.toLowerCase()][subject]}`}
             link={`${pathname}/${subject}`}
             className="draggable"
             style={{ position: 'relative', display: 'block' }}
