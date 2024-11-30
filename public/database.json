@@ -15,6 +15,11 @@
       "abc" : {
         "def" : "ghi"
       }
+    },
+    "csf214" : {
+      "Handouts" : {
+        "2024-25" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/d7c411abe567b1179173c7bb120ca5f350f80f1c/cse/f214/handout/CF214_24-25.pdf"
+      }
     }
   }, 
   "ece" : {
