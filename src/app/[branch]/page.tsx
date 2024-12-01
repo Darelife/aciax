@@ -7,6 +7,12 @@ import Nav from '../components/nav';
 import NotFound from 'next/error';
 import withAuth from '../../../hoc/withAuth';
 
+type SubjectNames = {
+  [branch: string]: {
+    [subject: string]: string;
+  };
+};
+
 function Home() {
   const pathname = usePathname();
   const branches = ['/cse', '/mnc', '/ece', '/eee', '/eni', '/mech', '/ch', '/eco', '/math', '/phy', '/chem', '/bio', '/bits'];
@@ -28,7 +34,7 @@ function Home() {
   
   const [subjects, setSubjects] = useState<string[]>([]);
   const [accepted, setAccepted] = useState(false);
-  const [subjectNames, setSubjectNames] = useState<{ [key: string]: string }>({});
+  const [subjectNames, setSubjectNames] = useState<SubjectNames>({});
   const [branchName, setBranch] = useState<string>('');
 
   useEffect(() => {
@@ -69,7 +75,8 @@ function Home() {
         {subjects.map((subject, index) => (
           <DisciplineBox
             key={index}
-            text={`${subject.toUpperCase()} : ${subjectNames[branchName.toLowerCase()][subject]}`}
+            // text={`${subject.toUpperCase()} : ${subjectNames[branchName.toLowerCase()][subject]}`}
+            text={`${subject.toUpperCase()} : ${subjectNames[branchName.toLowerCase()]?.[subject]}`}          
             link={`${pathname}/${subject}`}
             className="draggable"
             style={{ position: 'relative', display: 'block' }}
