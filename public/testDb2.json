@@ -6,13 +6,9 @@
         "Rosen Solutions" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Solutions%20to%20Rosen.pdf"
       },
       "Comprehensive Exam":{
-        "2023 Eval":"https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023.pdf",
-        "2023 Solution":"https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023sol.pdf",
-        "2022 Eval + Solution" : "https://raw.githubusercontent.com/Darelife/booksDB/c1ad187b37b25b18855d5b8041beb1c5cbc71f5e/cse/f222/compre/discoCompre2022.pdf"
-      },
-      "Drive" : {
-        "Ascii Archive" : "https://drive.google.com/drive/folders/1ClXRgRhOP08WxNEaLz07ooNdhpmjPGtS?usp=sharing",
-        "2-1 Ascii Drive" : "https://drive.google.com/drive/folders/1tVivmRdQw_3euXVtrJjxk73_X8j5nJDA?usp=sharing"
+        "2023 Eval":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023.pdf",
+        "2023 Solution":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c58e393bb1a8e85a6588c1d559f2bd4c13cca430/cse/f222/compre/discoCompre2023sol.pdf",
+        "2022 Eval + Solution" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/c1ad187b37b25b18855d5b8041beb1c5cbc71f5e/cse/f222/compre/discoCompre2022.pdf"
       }
     },
     "csf211" : {
