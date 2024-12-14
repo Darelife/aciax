@@ -69,7 +69,7 @@ function Home() {
   if (accepted) {
     return (
       <div>
-        <TemplateComponent category={`${branchName[branch.toLowerCase()]} F${subject.slice(-3)} : ${subjectTag}`} items={items} />
+        <TemplateComponent category={`${branchName[branch.toLowerCase()]} F${subject.slice(-3)} : ${subjectTag}`} items={items} courseId={subject}/>
       </div>
     );
   } else {

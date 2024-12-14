@@ -2,7 +2,7 @@
   "cse": {
     "csf222" : {
       "Books": {
-        "Rosen Discrete Mathematics and Its Applications 7th Edition" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
+        "Rosen DM 7th Edition" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
         "Rosen Solutions" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Solutions%20to%20Rosen.pdf"
       },
       "Comprehensive Exam":{
@@ -16,13 +16,56 @@
       }
     },
     "csf211" : {
-      "abc" : {
-        "def" : "ghi"
+      "Midsemester Exam" : {
+        "2023-24" : "https://drive.google.com/file/d/1dH-6S86sUjVC4jUKnVlwA0Ypajhy3EFa/view?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1i6BQozMSjIF2_RoKDAR85VY-k-kghaAL/view?usp=sharing",
+        "2021-22 A" : "https://drive.google.com/file/d/15oaFBNwYjz7Viw_jlS1Zqt2YHwUvcGnF/view?usp=sharing",
+        "2021-22 B" : "https://drive.google.com/file/d/1YoA3cW4WtQDFtbeK3b14rAYF7Z4IYrY1/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2023-24" : "https://drive.google.com/file/d/11iLVT26tg_WYw0-AkThwTJpH6euPnE16/view?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1oVuMBDgx8yKiJiF_wAoOhN2sgwUZppGZ/view?usp=sharing",
+        "2021-22" : "https://drive.google.com/file/d/1_k0WLFRvKNmWFAYf3RNMsZP6YTbCfN-B/view?usp=sharing"
+      },
+      "Drive" : {
+        "Ascii Archive" : "https://drive.google.com/drive/folders/1QGOVvhSpxJfajin1sR_sPrNLzjgRvhH5?usp=sharing"
       }
     },
     "csf214" : {
       "Handouts" : {
         "2024-25" : "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Darelife/booksDB/d7c411abe567b1179173c7bb120ca5f350f80f1c/cse/f214/handout/CF214_24-25.pdf"
+      }
+    },
+    "csf241" : {
+      "Midsemester Exam" : {
+        "2023-24 Eval" : "https://drive.google.com/file/d/1SGwX4CZYoQYGfYzXmFBMRMePRSPW-e3G/view?usp=sharing",
+        "2023-24 Solution" : "https://drive.google.com/file/d/1MGN3Sx62UPzuCuIdJbuD63RgPAP4vTMU/view?usp=sharing",
+        "2022-23 Eval" : "https://drive.google.com/file/d/1WiaGSbcfTweQrE6mrNL5CMM6F-LXdIiH/view?usp=sharing",
+        "2022-23 Eval (ig Makeup)" : "https://drive.google.com/file/d/1bBCURtd1N6ZH4sM5PRNGWYIoSLihMsJk/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2023-24 Eval" : "https://drive.google.com/file/d/1AuYekQh7xZ7HJ6QvYUFxKDrxHPnJn8LZ/view?usp=sharing",
+        "2023-24 Solution" : "https://drive.google.com/file/d/1hETI5GBkbTuTjoCjDb2KyiOVpVwX4oaE/view?usp=sharing"
+      },
+      "Drive" : {
+        "Ascii Archive" : "https://drive.google.com/drive/folders/1OZHDHT-Me-_hjwzwjF__E_b7y9Kphw4y?usp=sharing"
+      }
+    },
+    "csf212" : {
+      "Midsemester Exam" : {
+        "2023-24 Eval" : "https://drive.google.com/file/d/1dmtQO0NiQ-kGwasr9RoZ6LnNydDybots/view?usp=sharing",
+        "2022-23 Eval" : "https://drive.google.com/file/d/1bF-xmsrwVZ1cxP36lAKnnJJt1H3NUvGN/view?usp=sharing",
+        "2021-22 Eval" : "https://drive.google.com/file/d/1FYg5IQ1HjlfGVxnR3sECGSTq8cUE8-s5/view?usp=sharing",
+        "2021-22 Solution" : "https://drive.google.com/file/d/1DjxKRa7JtYkel0Fk6OFn3Rxy-oHQKWC2/view?usp=sharing",
+        "2021-22 Makeup" : "https://drive.google.com/file/d/1chK4Pzy9kGcHofkOv2lCkmcyWHeqaBBL/view?usp=sharing",
+        "2021-22 Makeup Sol" : "https://drive.google.com/file/d/1gRcmOrpb-f_U55Baarzzdem2eDtrTs7e/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2021-22 Eval" : "https://drive.google.com/file/d/1OCayZQEA80_MZ1rhDnRMGio_0F-BfM4w/view?usp=sharing",
+        "2021-22 Solution" : "https://drive.google.com/file/d/1h1LI2iHq9dCeAFzyAVJaHpyJWBvdu-HJ/view?usp=sharing"
+      },
+      "Drive" : {
+        "Ascii Archive" : "https://drive.google.com/drive/folders/1kdKIcz9X-5deEAFqERf8djdyqfQDcDVb?usp=sharing"
       }
     }
   }, 

@@ -1,0 +1,40 @@
+{
+  "cse" : {
+    "csf211" : {
+      "name" : "Data Structures and Algorithms",
+      "CheckList" : {
+        "Introduction" : [
+          "Introduction",
+          "Growth Function",
+          "θ Notation, O Notation, Ω Notation",
+          "Divide and Conquer & Recurrence Relation"
+        ],
+        "Sorting" : [
+          "Heapsort",
+          "Quicksort",
+          "Sorting in O(n)"
+        ],
+        "Data Structures" : [
+          "Stack",
+          "Queue",
+          "Linked List",
+          "Hash Table",
+          "Binary Search Tree",
+          "Red Black Tree"
+        ],
+        "Graph" : [
+          "Elementary Graph Algorithms",
+          "BFS",
+          "DFS",
+          "Topological Sort",
+          "Minimum Spanning Tree",
+          "Single Source Shortest Path",
+          "The Bellman-Ford Algorithm",
+          "Dijkstra's Algorithm",
+          "Difference Constraints & Shortest Paths",
+          "All-Pairs Shortest Paths"
+        ]
+      }
+    }
+  }
+}

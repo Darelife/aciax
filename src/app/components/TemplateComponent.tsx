@@ -7,9 +7,10 @@ import { Draggable } from '@syncfusion/ej2-base';
 type TemplateComponentProps = {
   category: string;
   items: { text: string; link: { [key: string]: string } }[];
+  courseId: string;
 };
 
-export default function TemplateComponent({ category, items }: TemplateComponentProps) {
+export default function TemplateComponent({ category, items, courseId }: TemplateComponentProps) {
   const [expandedItems, setExpandedItems] = useState<number[]>([]);
 
   const toggleExpand = (index: number) => {
@@ -42,6 +43,7 @@ export default function TemplateComponent({ category, items }: TemplateComponent
   return (
     <div>
       <Nav text={category} />
+      <a href={`${courseId}/checklist`}>Checklist</a>
       <br />
       <div style={{ position: "absolute", top: "85px" }}>
         {items && items.length > 0 ? (
@@ -51,7 +53,7 @@ export default function TemplateComponent({ category, items }: TemplateComponent
                 <DisciplineBox
                   text={item.text}
                   style={{ position: 'relative', display: 'block' }}
-                  toggle={expandedItems.includes(index) ? "▼\0" : ">"}
+                  toggle={expandedItems.includes(index) ? "▼\0 " : "> "}
                 />
               </div>
               <div
