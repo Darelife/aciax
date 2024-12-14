@@ -35,6 +35,47 @@
           "All-Pairs Shortest Paths"
         ]
       }
+    },
+    "csf241" : {
+      "name" : "Microprocessors and Interfacing",
+      "CheckList" : {
+        "Introduction" : [
+          "Computer Architecture, Memory and IO, CISC & RISC",
+          "Programming Model, Real & Protected Addressing mode, memory paging, Flat mode memory"
+        ],
+        "Assembly" : [
+          "Addressing Modes",
+          "Instruction Set and ALP"
+        ],
+        "Hardware + Memory" : [
+          "Pin Out, Modes of operation, Clocking, Buses",
+          "Memory Devices, Address Decoding- Memory Interface 8086- 80386"
+        ],
+        "IO and Interrupts" : [
+          "IO Interface",
+          "IO Port Address",
+          "Types of Interrupts",
+          "Vector Tables",
+          "Priority Schemes"
+        ],
+        "Programmable Peripheral Devices & DMA" : [
+          "8255",
+          "8254",
+          "ADC",
+          "DAC",
+          "8259",
+          "Basic DMA Operation",
+          "8237",
+          "Shared Bus",
+          "Disc Memory Systems",
+          "Video Displays"
+        ],
+        "Bus Interface & Advanced Processors" : [
+          "ISA, PCI, Com, USB, AGP",
+          "80286",
+          "MIPS"
+        ]
+      }
     }
   }
 }
