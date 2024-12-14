@@ -20,7 +20,7 @@ function Home() {
       });
   }, []);
 
-  return <TemplateComponent category="CS F222 : Discrete Structures for Computer Science" items={items} />;
+  return <TemplateComponent category="CS F222 : Discrete Structures for Computer Science" items={items} courseId='csf222' />;
 }
 
 export default withAuth(Home);
