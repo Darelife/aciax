@@ -227,6 +227,12 @@ function Home() {
             style={{ position: 'absolute', top: `${30 + index * 30}px` }}
           />
         ))}
+      </div>   
+
+      <div style={{ position: 'absolute', top: 'max(90vh, 550px)' }} className='text-green-400'>
+        Hey guys, this website will only function if you all help out by contributing to the <u><a href="https://github.com/Darelife/aciax/">Github Repo</a></u>
+        <br />
+        Or just the <u><a href="https://github.com/Darelife/aciax/blob/master/public/database.json">Database</a></u>, <u><a href="https://github.com/Darelife/aciax/blob/master/public/checklist.json">Checklist</a></u>, and the <u><a href="https://github.com/Darelife/aciax/blob/master/public/subjectNames.json">Subject Names</a></u>
       </div>
     </div>
   );
