@@ -1,5 +1,36 @@
 {
   "cse": {
+    "csf111" : {
+      "Handout" : {
+        "2023-24" : "https://drive.google.com/file/d/1pxViKLltR1oH6NTOPdaUfdpPHHOJqV5z/view?usp=sharing"
+      },
+      "Slides": {
+        "2023-24" : "https://drive.google.com/drive/folders/1wyKzXGoHWDaJSrBpw7D3CMvGVK00K3Uq?usp=sharing"
+      },
+      "Midsemester Exam" : {
+        "2023-24" : "https://drive.google.com/file/d/1LvSLpTyUutn6zWw9mVvCK-gfuo6Dhs7L/view?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1cf05J2bsX71eOG70GKBpkBTN-VAdMxEX/view?usp=sharing",
+        "2021-22" : "https://drive.google.com/file/d/1IDY4Vs6_Af7_F3PVoC5AvyYXb_KI11ah/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2023-24" : "https://drive.google.com/file/d/1Wq-ueALrSh1eW-9DV9q-v5BYE25T9JN3/view?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1Q0b1QB9Qvrm2g7ZXAbLg002xGjClArEj/view?usp=sharing",
+        "2021-22" : "https://drive.google.com/file/d/1L8XMNEU1P99Mtzh5kIlZit0DBfo9mgvr/view?usp=sharing"
+      },
+      "In Class Quizzes" : {
+        "2023-24 Arnab Paul" : "https://drive.google.com/drive/folders/1d0RuyXrhkXplphGAgzE2zCDF3TsHm_Mv?usp=sharing",
+        "2022-23 All profs" : "https://drive.google.com/drive/u/1/folders/1Mqwle1hu3kbrvF3AOlR33lZV78XswxqL"
+      },
+      "Labs" : {
+        "2022-23" : "https://drive.google.com/drive/folders/1-1lSG_Mkcm38lut-gghxogCbuRnSPR-X?usp=sharing"
+      },
+      "Drive" : {
+        "2023-24 By Jashan Gupta" : "https://drive.google.com/drive/folders/1MiTbSEEMjg8e3ZzebdGFXDj2EqJEzzIt?usp=sharing"
+      },
+      "Github Practice Files" : {
+        "2023-24 By Darelife" : "https://github.com/darelife/cs-f111"
+      }
+    },
     "csf222" : {
       "Books": {
         "Rosen DM 7th Edition" : "https://github.com/Darelife/booksDB/blob/main/cse/f222/books/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
