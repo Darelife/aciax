@@ -118,5 +118,65 @@
         ]
       }
     }
+  },
+  "eee" : {
+    "eeef111" : {
+      "name" : "Electrical Sciences",
+      "CheckList" : {
+        "Introduction" : [
+          "Revision of Basic Concepts",
+          "Independent and Dependent Sources"
+        ],
+        "Circuit Analysis" : [
+          "KVL & KCL",
+          "Nodal Analysis",
+          "Mesh Analysis",
+          "Extra Practice to avoid silly mistakes",
+          "Thevenin",
+          "Norton",
+          "Linearity & Superposition"
+        ],
+        "Time Domain" : [
+          "Inductors",
+          "Capacitors",
+          "First Order Circuits",
+          "Second Order Circuits"
+        ],
+        "AC Circuits" : [
+          "Time & Frequency Domain",
+          "Power"
+        ],
+        "Polyphase Circuits" : [
+          "3 Phase Circuit",
+          "Star",
+          "Delta",
+          "Star-Delta Conversion",
+          "Power"
+        ],
+        "Frequency Response" : [
+          "Frequency response",
+          "Resonance in Parallel & Series"
+        ],
+        "Semi Conductors" : [
+          "Intrinsic & Doped",
+          "PN Junction"
+        ],
+        "Diodes": [
+          "Ideal & Non Ideal",
+          "Zenner Diode",
+          "Rectifiers",
+          "Clippers"
+        ],
+        "Transistors" : [
+          "NPN & PNP",
+          "Cut Off",
+          "Saturation",
+          "Output Characteristics",
+          "Load Line",
+          "BJT Biasing & amplifiers",
+          "Other Stuff"
+        ]
+      }
+    }
   }
 }
