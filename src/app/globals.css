@@ -27,6 +27,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   /* -webkit-user-drag: none; */
+  margin: 7px;
 }
 
 ::before {
