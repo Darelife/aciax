@@ -1,5 +1,46 @@
 {
   "cse" : {
+    "csf111" : {
+      "name":"C Programming",
+      "CheckList" : {
+        "Introduction" : [
+          "C Basics",
+          "Expressions",
+          "Operators",
+          "Functions",
+          "Conditionals"
+        ],
+        "Recursion, Loops & Others" : [
+          "Recursion",
+          "Recursion Extra Practice",
+          "Strings",
+          "Arrays",
+          "Loops"
+        ],
+        "Pointers" : [
+          "Pointers Basics",
+          "Double Pointers",
+          "Quadruple Pointers"
+        ],
+        "Dynamic Memory Allocation" : [
+          "Malloc",
+          "Calloc",
+          "Free",
+          "Realloc (In Syllabus??)",
+          "Tripple & Quad Pointers with DMA"
+        ],
+        "File IO" : [
+          "fopen & fclose",
+          "fputs, fgets, etc",
+          "checked geekforgeeks"
+        ],
+        "Others" : [
+          "Linked List",
+          "Operator precedence",
+          "Miscellaneous"
+        ]
+      }
+    },
     "csf211" : {
       "name" : "Data Structures and Algorithms",
       "CheckList" : {
