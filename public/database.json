@@ -2,10 +2,15 @@
   "cse": {
     "csf111" : {
       "Handout" : {
-        "2023-24" : "https://drive.google.com/file/d/1pxViKLltR1oH6NTOPdaUfdpPHHOJqV5z/view?usp=sharing"
+        "2023-24 Handout 1" : "https://drive.google.com/file/d/1pxViKLltR1oH6NTOPdaUfdpPHHOJqV5z/view?usp=sharing",
+        "2023-24 Handout 2" : "https://drive.google.com/file/d/1Dm8ryAYZDDq7ih3Kqz6dgXMpTVLCoHia/view?usp=sharing"
+      },
+      "Books" : {
+        "CP Textbook 2023-24" : "https://drive.google.com/file/d/1t4uY2zLQR4gxQ3p8M9Mj2Ok_T585MmWG/view?usp=sharing"
       },
       "Slides": {
-        "2023-24" : "https://drive.google.com/drive/folders/1wyKzXGoHWDaJSrBpw7D3CMvGVK00K3Uq?usp=sharing"
+        "2023-24" : "https://drive.google.com/drive/folders/1wyKzXGoHWDaJSrBpw7D3CMvGVK00K3Uq?usp=sharing",
+        "2022-23" : "https://drive.google.com/drive/folders/1By5zKSI7j8dCvHblhYaOrvjx2tCit6iB?usp=sharing"
       },
       "Midsemester Exam" : {
         "2023-24" : "https://drive.google.com/file/d/1LvSLpTyUutn6zWw9mVvCK-gfuo6Dhs7L/view?usp=sharing",
@@ -22,13 +27,28 @@
         "2022-23 All profs" : "https://drive.google.com/drive/u/1/folders/1Mqwle1hu3kbrvF3AOlR33lZV78XswxqL"
       },
       "Labs" : {
+        "2023-24" : "https://drive.google.com/drive/folders/1-VLHhd7hPeXdQWAwmbM-Tllvo0kn_KxT?usp=sharing",
         "2022-23" : "https://drive.google.com/drive/folders/1-1lSG_Mkcm38lut-gghxogCbuRnSPR-X?usp=sharing"
       },
-      "Drive" : {
-        "2023-24 By Jashan Gupta" : "https://drive.google.com/drive/folders/1MiTbSEEMjg8e3ZzebdGFXDj2EqJEzzIt?usp=sharing"
+      "Programs" : {
+        "2023-24 Arnab Paul Sir" : "https://drive.google.com/drive/folders/1_i1jcQOi9M6eJmcrK44hNUV7nDqAU48b?usp=sharing",
+        "2023-24 Surjya Sir" : "https://drive.google.com/drive/folders/1xnIAcQYA8wQPJyjOsXGt8qlj-hAzUneN?usp=sharing",
+        "2022-23 Arnab Paul Sir" : "https://drive.google.com/drive/folders/1JIGLFIjpNLOZLAr99mFIo5m296jIhawO?usp=sharing",
+        "2022-23 Anup and Hemant Sir" : "https://drive.google.com/drive/folders/1aTi8YID_SaBDJ50D3C78BKxHm2api-90?usp=drive_link"
+      },
+      "Practice Problems" : {
+        "2023-24" : "https://docs.google.com/document/d/18qavDA7gKLHS2oHCgYJS10OJAmK93LLx/edit?usp=drive_link&ouid=102544954867664250470&rtpof=true&sd=true",
+        "2022-23" : "https://drive.google.com/drive/folders/19_je9WYA4uwhUkQxUHJVLRJ63y-itYUe?usp=sharing"
       },
       "Github Practice Files" : {
         "2023-24 By Darelife" : "https://github.com/darelife/cs-f111"
+      },
+      "Drive" : {
+        "2023-24 By Jashan Gupta" : "https://drive.google.com/drive/folders/1MiTbSEEMjg8e3ZzebdGFXDj2EqJEzzIt?usp=sharing",
+        "2023-24 By Atharva Pandit" : "https://drive.google.com/drive/folders/1p4Ngb6AUTypkL8xOPvSk7vIH55Pi1Woz?usp=drive_link",
+        "2023-24 By Raj Rahul" : "https://drive.google.com/drive/folders/180US9NAjE1xL8GF6q8djAT-yDTGkfUFz?usp=drive_link",
+        "2023-24 By Balram Bhala" : "https://drive.google.com/drive/folders/1b_7ZnFHXwflQ4gfHMh_DQEHLIUyjQawq?usp=sharing",
+        "2022-23 By Shamit Khetan" : "https://drive.google.com/drive/folders/19_je9WYA4uwhUkQxUHJVLRJ63y-itYUe?usp=sharing"
       }
     },
     "csf222" : {
