@@ -100,10 +100,29 @@
       }
     }
   }, 
-  "ece" : {
-    "ece221" : {
-      "Books": {
-        "abc" : "abc"
+  "eee" : {
+    "eee111" : {
+      "Handouts" : {
+        "2023-24" : "https://drive.google.com/file/d/1FaCszXD3r7LCAOgu7xqp8ie7Ajfswa1L/view?usp=sharing"
+      }, 
+      "Midsemester Exam" : {
+        "2023-24 Eval" : "https://drive.google.com/file/d/1PYV23eb-iCNcYD47ZzwwJkJ-025Nds7E/view?usp=sharing",
+        "2023-24 Solution" : "https://drive.google.com/file/d/1BWRKtE0f1V_UA0iIaN_1ibwQQ8mBLj9a/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2023-24 Eval" : "https://drive.google.com/file/d/19MhO1nDm37aIvOlv2l3Vop5VXG0KarT3/view?usp=sharing",
+        "2023-24 Solution" : "https://drive.google.com/file/d/1lkD234R68qcPTEhl3m6mxEWO85y4m69z/view?usp=sharing"
+      },
+      "Quiz 1": {
+        "2023-24 Group 1" : "https://drive.google.com/file/d/1eWfD0GevWyEqudZQhEQ1kEn4NRxr5-jG/view?usp=sharing",
+        "2023-24 Group 2" : "https://drive.google.com/file/d/1xioH489vMehjHjCh_ySq3PnNlTuQN_qT/view?usp=sharing"
+      },
+      "Quiz 2" : {
+        "2023-24 Group 2" : "https://drive.google.com/file/d/1xioH489vMehjHjCh_ySq3PnNlTuQN_qT/view?usp=sharing"
+      },
+      "Drives" : {
+        "2023-24 By Jashan Gupta" : "https://drive.google.com/drive/folders/1Sb9LYupfT-nyGGEmsiLhDCvuzHaKw_R7?usp=sharing",
+        "2023-24 By Atharva Pandit" : "https://drive.google.com/drive/folders/1vGhMjeQ2RhvZijys-9geF075EY2XjTh4?usp=sharing"
       }
     }
   },
