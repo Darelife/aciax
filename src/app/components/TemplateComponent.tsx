@@ -62,30 +62,47 @@ export default function TemplateComponent({ category, items, courseId }: Templat
                 />
               </div>
               <div
-                style={{
-                  maxHeight: expandedItems.includes(index) ? '1000px' : '0',
-                  opacity: expandedItems.includes(index) ? 1 : 0,
-                  overflow: 'hidden',
-                  transform: expandedItems.includes(index) ? 'translateY(0)' : 'translateY(-10px)',
-                  transition: expandedItems.includes(index)
-                    ? 'max-height 0.2s ease-in, opacity 0.2s ease-in, transform 0.2s ease-in'
-                    : 'max-height 0.2s ease-out, opacity 0.1s ease-out, transform 0.1s ease-out',
-                  marginLeft:'20px'
-                }}
-              >
-                <div style={{marginTop: '10px'}}>
-                </div>
-                {Object.keys(item.link).map((heading, headingIndex) => (
-                  <div key={headingIndex} className="text-[#a3a3a3]">
-                    <a target="_blank" href={item.link[heading]} className="overflow-ellipsis">
-                      <span className="text-[#01e201]">{'>_ '}</span>
-                      <span className="overflow-ellipsis">
-                        {heading.length > 33 ? `${heading.slice(0, 30)}...` : heading}
-                      </span>
-                    </a>
-                  </div>
-                ))}
-              </div>
+  style={{
+    maxHeight: expandedItems.includes(index) ? '300px' : '0',
+    opacity: expandedItems.includes(index) ? 1 : 0,
+    overflow: 'hidden',
+    transform: expandedItems.includes(index)
+      ? 'translateY(0)'
+      : 'translateY(-10px)',
+    transition: expandedItems.includes(index)
+      ? 'max-height 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease-in, transform 0.4s ease-out'
+      : 'max-height 0.3s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.2s ease-out, transform 0.2s ease-in',
+    // paddingLeft: '20px',
+    marginTop:'5px',
+    borderRadius: '8px',
+    // backgroundColor: '#1a1a1a',
+    // boxShadow: expandedItems.includes(index)
+    //   ? '0px 4px 8px rgba(0, 0, 0, 0.2)'
+    //   : 'none',
+    padding: expandedItems.includes(index) ? '10px 10px 10px 20px' : '0px 0px 0px 20px',
+    // paddingLeft:'20px',
+    color: '#ffffff',
+  }}
+  className="flex items-center px-4 py-2 rounded-lg shadow-md bg-gradient-to-r from-gray-900 to-gray-800"
+>
+  <div style={{ marginTop: '10px' }}>
+    {Object.keys(item.link).map((heading, headingIndex) => (
+      <div key={headingIndex} className="text-[#d1d1d1] mb-2">
+        <a
+          target="_blank"
+          href={item.link[heading]}
+          // className="overflow-ellipsis hover:text-[#01e201] transition-transform duration-200 hover:scale-105"
+        >
+          <span className="text-[#01e201]">{'>_ '}</span>
+          <span className="overflow-ellipsis">
+            {heading.length > 33 ? `${heading.slice(0, 30)}...` : heading}
+          </span>
+        </a>
+      </div>
+    ))}
+  </div>
+</div>
+
             </div>
           ))
         ) : (
