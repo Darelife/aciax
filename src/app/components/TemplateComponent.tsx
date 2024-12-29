@@ -69,9 +69,12 @@ export default function TemplateComponent({ category, items, courseId }: Templat
                   transform: expandedItems.includes(index) ? 'translateY(0)' : 'translateY(-10px)',
                   transition: expandedItems.includes(index)
                     ? 'max-height 0.2s ease-in, opacity 0.2s ease-in, transform 0.2s ease-in'
-                    : 'max-height 0.2s ease-out, opacity 0.1s ease-out, transform 0.1s ease-out'
+                    : 'max-height 0.2s ease-out, opacity 0.1s ease-out, transform 0.1s ease-out',
+                  marginLeft:'20px'
                 }}
               >
+                <div style={{marginTop: '10px'}}>
+                </div>
                 {Object.keys(item.link).map((heading, headingIndex) => (
                   <div key={headingIndex} className="text-[#a3a3a3]">
                     <a target="_blank" href={item.link[heading]} className="overflow-ellipsis">
