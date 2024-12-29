@@ -193,5 +193,63 @@
         
       }
     }
+  },
+  "bits" : {
+    "bitsf111" : {
+      "Handouts" : {
+        "2023-24" : "https://drive.google.com/file/d/15fRAa_AeBF9xxUqa8ZQal6ynBnpdkZlE/view?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1ou0I2_rtHxP6aQj3Myy0W5y9vkYeYL7f/view?usp=sharing"
+      },
+      "Books" : {
+        "Solution Manual" : "https://drive.google.com/file/d/1LNpSqQPqJLHzn7hN_l1Pql94mKwmiMNr/view?usp=sharing",
+        "Reference Book" : "https://drive.google.com/file/d/1LNpSqQPqJLHzn7hN_l1Pql94mKwmiMNr/view?usp=sharing",
+        "Data Book" : "https://drive.google.com/file/d/1F3bxBcGTi9EcjfqE5JnPsazwng8NrHhN/view?usp=sharing"
+      },
+      "Tutorials" : {
+        "2023-24 v1" : "https://drive.google.com/drive/folders/1oxKyAenomiTqtTsvQBOfiTcXU0bma1Vr?usp=sharing",
+        "2023-24 v2" : "https://drive.google.com/drive/folders/1jceAhW24q0kECu-0HENEquBNc_VS1GRR?usp=sharing",
+        "2022-23" : "https://drive.google.com/drive/folders/11FB6dn55PhtLEQpi6K5IlW79lrgvMcpe?usp=sharing"
+      },
+      "Slides" : {
+        "2023-24" : "https://drive.google.com/drive/folders/1wlbxB2QtP_QGHFKzIy6GmOGuKjZ-gYH9?usp=sharing",
+        "2022-23" : "https://drive.google.com/drive/folders/1w93jgVlHxfBtG2Mv7hBYtQVAuOTznuEr?usp=sharing"
+      },
+      "Quiz 1" : {
+        "2023-24" : "https://drive.google.com/drive/folders/1htURquNysZqTJ4XU64gSFDHRpH6beCQW?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1x_22jlk3MynApZQMTGlM-BL_X3moNIuA/view?usp=sharing"
+      },
+      "Quiz 2" : {
+        "2023-24" : "https://drive.google.com/drive/folders/1VXGO0wA_W2gB9tquErsf-kgl_ppXvZPb?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1Q3oJttbWg1Bdlaa872ufcM0BxsDQqHX5/view?usp=sharing"
+      },
+      "Quiz 3" : {
+        "2023-24" : "https://drive.google.com/drive/folders/1heGZiPoXedKagMsdiu5eAy6VQy23Utr8?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1RfwtJ2xVb3kGr0tpN-R5wpKgnVGqHUE_/view?usp=sharing"
+      },
+      "Quiz 4" : {
+        "2022-23 Batch 1" : "https://drive.google.com/file/d/1N4-BpjSPACr36zfRWvMs4mmMwRGs_Py0/view?usp=sharing",
+        "2022-23 Batch 2" : "https://drive.google.com/file/d/1LPQH-e34nblDdnQTC9COREUI5iE0B1WL/view?usp=sharing"
+      },
+      "Midsemester Exam" : {
+        "2023-24" : "https://drive.google.com/file/d/12y-LIiQ9nsvkHVDgwl2yqRir0gM3MU8P/view?usp=sharing",
+        "2022-23 Part A" : "https://drive.google.com/file/d/1QdJ9_Zza27kSl42T30PQB1DgqU_YJzLs/view?usp=sharing",
+        "2022-23 Part B" : "https://drive.google.com/file/d/1gdSNsTAfJenMgCSYvkme0pig1wcHmVQw/view?usp=sharing",
+        "2022-23 Part B Sol" : "https://drive.google.com/file/d/1Qd2K4COw4RWaOmz-MlKFaPkuV7NplHW2/view?usp=sharing",
+        "2022-23 Common Doubts" : "https://drive.google.com/file/d/1bMjXbhMO7o7RgdfUhT5D21abdZrWNOZA/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2023-24" : "https://drive.google.com/drive/folders/11Z3OOaFumn42HAyP2LY55b68QMQ1VrvF?usp=sharing",
+        "2022-23 Part A" : "https://drive.google.com/file/d/1fe-jjSXhPm-alC8Le21_pXvMQLtt3dtE/view?usp=sharing",
+        "2022-23 Part B" : "https://drive.google.com/file/d/1gjJK8Nj_asjkxrt5LQwvT4LYIC9BgqAZ/view?usp=sharing",
+        "2022-23 Part B Sol" : "https://drive.google.com/file/d/12vKJzJHxl82qDxmLwNF_aGCGiH3FPJ81/view?usp=sharing"
+      },
+      "Drives" : {
+        "2023-24 By Jashan Gupta" : "https://drive.google.com/drive/folders/1D3vYVstlbx0BG0P8pPw57Pn5kyKYua4T?usp=sharing",
+        "2023-24 By Atharva Pandit" : "https://drive.google.com/drive/folders/1iOlsfBZEOik45syP0Oqs4bh9qC0eYFVd?usp=sharing",
+        "2023-24 By Raj Rahul" : "https://drive.google.com/drive/folders/15JndNQ1606oBza6iZb4HQoONHswhiMM1?usp=sharing",
+        "2023-24 By Balram Bhala" : "https://drive.google.com/drive/folders/1oYqehXlHkhXwc94ADJBEuADTdzHq74Px?usp=sharing",
+        "2022-23 By Shamit Khetan" : "https://drive.google.com/drive/folders/17W7q-jmbF0eOr1GH0rymexK5E1IKz6Dt?usp=sharing"
+      }
+    }
   }
 }
