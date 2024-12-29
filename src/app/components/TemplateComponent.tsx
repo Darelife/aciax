@@ -22,22 +22,26 @@ export default function TemplateComponent({ category, items, courseId }: Templat
   };
 
   useEffect(() => {
-    const draggableElements = document.querySelectorAll('.draggable-container');
-    draggableElements.forEach((element) => {
-      new Draggable(element as HTMLElement, {
-        clone: false,
-        dragStart: () => {
-          element.classList.add('dragging');
-        },
-        dragStop: () => {
-          element.classList.remove('dragging');
-        },
+    // const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const isMobile = window.innerWidth < 800;
+    if (!isMobile) {
+      const draggableElements = document.querySelectorAll('.draggable-container');
+      draggableElements.forEach((element) => {
+        new Draggable(element as HTMLElement, {
+          clone: false,
+          dragStart: () => {
+            element.classList.add('dragging');
+          },
+          dragStop: () => {
+            element.classList.remove('dragging');
+          },
+        });
+        // Prevent default touch actions to avoid pull-to-refresh
+        element.addEventListener('touchmove', (e) => {
+          e.preventDefault();
+        }, { passive: false }); // Passive: false allows preventDefault
       });
-      // Prevent default touch actions to avoid pull-to-refresh
-      element.addEventListener('touchmove', (e) => {
-        e.preventDefault();
-      }, { passive: false }); // Passive: false allows preventDefault
-    });
+    }
   }, [items]);
 
   return (

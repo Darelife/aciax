@@ -139,71 +139,74 @@ function Home() {
   ]);
 
   useEffect(() => {
-    const draggableElements = document.querySelectorAll('.draggable');
-    draggableElements.forEach((element, index) => {
-      let startX: number;
-      let startY: number;
-      let isDragging = false;
+    const isMobile = window.innerWidth < 800;
+    if (!isMobile) {
+      const draggableElements = document.querySelectorAll('.draggable');
+      draggableElements.forEach((element, index) => {
+        let startX: number;
+        let startY: number;
+        let isDragging = false;
 
-      new Draggable(element as HTMLElement, {
-        clone: false,
-        dragStart: () => {
-          isDragging = true;
-        },
-        dragStop: (args: DragEventArgs) => {
-          isDragging = false;
-          if (args.element) {
-            const rect = args.element.getBoundingClientRect();
-            const windowWidth = window.innerWidth;
+        new Draggable(element as HTMLElement, {
+          clone: false,
+          dragStart: () => {
+            isDragging = true;
+          },
+          dragStop: (args: DragEventArgs) => {
+            isDragging = false;
+            if (args.element) {
+              const rect = args.element.getBoundingClientRect();
+              const windowWidth = window.innerWidth;
 
-            if (rect.right >= windowWidth) {
-              // Remove the item if its right edge touches or exceeds the page boundary
-              if (items[index].text !== "computer science") {
-                args.element.style.display = 'none';
+              if (rect.right >= windowWidth) {
+                // Remove the item if its right edge touches or exceeds the page boundary
+                if (items[index].text !== "computer science") {
+                  args.element.style.display = 'none';
+                }
               }
             }
+          },
+        });
+
+        // Prevent default touch behavior to avoid accidental page reloads
+        element.addEventListener('touchstart', (event) => {
+          const touchEvent = event as TouchEvent;
+          touchEvent.preventDefault();
+          const touch = touchEvent.touches[0];
+          startX = touch.clientX;
+          startY = touch.clientY;
+          // isDragging = false;
+        }, { passive: false });
+
+        element.addEventListener('touchmove', () => {
+          isDragging = true;
+        });
+
+        element.addEventListener('touchend', (event) => {
+          isDragging = false;
+          const touchEvent = event as TouchEvent;
+          const touch = touchEvent.changedTouches[0];
+          const endX = touch.clientX;
+          const endY = touch.clientY;
+          const distance = Math.sqrt((endX - startX) ** 2 + (endY - startY) ** 2);
+
+          if (!isDragging && distance < 10) { // Treat as a click if the drag distance is very low
+            const link = items[index].link;
+            if (link) {
+              window.location.href = link;
+            }
           }
-        },
-      });
+        });
 
-      // Prevent default touch behavior to avoid accidental page reloads
-      element.addEventListener('touchstart', (event) => {
-        const touchEvent = event as TouchEvent;
-        touchEvent.preventDefault();
-        const touch = touchEvent.touches[0];
-        startX = touch.clientX;
-        startY = touch.clientY;
-        // isDragging = false;
-      }, { passive: false });
-
-      element.addEventListener('touchmove', () => {
-        isDragging = true;
-      });
-
-      element.addEventListener('touchend', (event) => {
-        isDragging = false;
-        const touchEvent = event as TouchEvent;
-        const touch = touchEvent.changedTouches[0];
-        const endX = touch.clientX;
-        const endY = touch.clientY;
-        const distance = Math.sqrt((endX - startX) ** 2 + (endY - startY) ** 2);
-
-        if (!isDragging && distance < 10) { // Treat as a click if the drag distance is very low
-          const link = items[index].link;
-          if (link) {
-            window.location.href = link;
-          }
+        // Prevent default drag behavior on the link element
+        const linkElement = element.querySelector('a');
+        if (linkElement) {
+          linkElement.addEventListener('dragstart', (event) => {
+            event.preventDefault();
+          });
         }
       });
-
-      // Prevent default drag behavior on the link element
-      const linkElement = element.querySelector('a');
-      if (linkElement) {
-        linkElement.addEventListener('dragstart', (event) => {
-          event.preventDefault();
-        });
-      }
-    });
+    }
   }, [items]);
 
   const handleLogout = () => {
