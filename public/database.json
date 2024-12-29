@@ -192,6 +192,43 @@
         "2016" : "https://drive.google.com/drive/u/0/folders/1Ay_44ztM_sz9d6nIRapPU1cDNNpbiaCv"
         
       }
+    },
+    "mathf112" : {
+      "Handouts" : {
+        "2023-24" : "https://drive.google.com/file/d/1OlXvzsUwhpJqgUgZcFJ9VjiO9FapOTIT/view?usp=sharing",
+        "2022-23" : "https://drive.google.com/file/d/1DJabMXAEWJk9HU5wwUyuZoW-J45IfDj7/view?usp=sharing"
+      },
+      "Book" : {
+        "Elementary Linear Algebra" : "https://drive.google.com/file/d/1prg7i5GAGUwgN5Xlj_ND7J8oJZij9MWl/view?usp=sharing"
+      },
+      "Tutorials" : {
+        "2023-24" : "https://drive.google.com/drive/folders/173KrW731wTB-sA1mH1DZWRqRbBb2aXSZ?usp=sharing",
+        "2022-23" : "https://drive.google.com/drive/folders/1MyOhAwKf0rI63bVkClVI3_lUNsjfFPl5?usp=sharing"
+      },
+      "Slides" : {
+        "2023-24" : "https://drive.google.com/drive/folders/1aqQHu3gEbuwtMrBkZWg7MGBGnUrze51g?usp=sharing",
+        "2022-23" : "https://drive.google.com/drive/folders/14b_VDgUqnxlU31AzArZ4rIL0YmUiazGN?usp=sharing"
+      }, 
+      "Quiz" : {
+        "2023-24 Till Complex page 1" : "https://drive.google.com/file/d/1QZLwwJE_a3mfYdPhevCYy4FaP4v1eZ3n/view?usp=sharing",
+        "2023-24 Complex page 2" : "https://drive.google.com/file/d/1QZLwwJE_a3mfYdPhevCYy4FaP4v1eZ3n/view?usp=sharing",
+        "2022-23 Quiz 1" : "https://drive.google.com/file/d/1HOP5SRWmRKw3MPD-pZBO7wJZW8JVS_Pb/view?usp=sharing",
+        "2022-23 Quiz 1 Sol" : "https://drive.google.com/file/d/1HOP5SRWmRKw3MPD-pZBO7wJZW8JVS_Pb/view?usp=sharing",
+        "2022-23 Quiz 2" : "https://drive.google.com/file/d/1a9oMzRV3GY5J3ByiUCaVAUb8gDFPKW0q/view?usp=sharing"
+      },
+      "Midsemester Exam" : {
+        "2023-24 Eval" : "https://drive.google.com/file/d/1pjNy1LOGKzeqbYi5loK2pDJ97YNm5zQG/view?usp=sharing",
+        "2023-24 Solution" : "https://drive.google.com/file/d/1eAM64HMnkWjPS1Q_2tmdY69ij8uYckQE/view?usp=sharing",
+        "2022-23 Eval" : "https://drive.google.com/file/d/1eGRAbt4jpAnCQQybM646GnLXl7p-Aa0J/view?usp=sharing",
+        "2022-23 Solution" : "https://drive.google.com/file/d/1eGRAbt4jpAnCQQybM646GnLXl7p-Aa0J/view?usp=sharing"
+      },
+      "Comprehensive Exam" : {
+        "2023-24 Part A" : "https://drive.google.com/file/d/1ZUSlmFWJ0mlg3hM5MmlfY7x6qmRhSTe_/view?usp=sharing",
+        "2023-24 Part B" : "https://drive.google.com/file/d/1lFSERC5jPOZin5A9innS6bnz_UO2G-iz/view?usp=sharing",
+        "2023-24 Part B Sol" : "https://drive.google.com/file/d/16aqzl7nF-O5L2bH7KaC-CEydr8JYs9TF/view?usp=sharing" ,
+        "2022-23" : "https://drive.google.com/file/d/1PCGQ47M8TGnGm3r5n6W3e1-GeVTPxn-N/view?usp=sharing",
+        "2022-23 Solution" : "https://drive.google.com/file/d/1_6C2dDjytc397HqwsSUc8O5HHDHOktTi/view?usp=sharing"
+      }
     }
   },
   "bits" : {
