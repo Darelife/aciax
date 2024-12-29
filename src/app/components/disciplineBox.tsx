@@ -8,13 +8,33 @@ type DisciplineBoxProps = {
   toggle?: string;
 };
 
-export default function DisciplineBox({ text, className, style, link, toggle }: DisciplineBoxProps) {
-  const arrow = toggle ? toggle : '>';
-  // replace all spaces with "\0"
-  // text = text.replace(/ /g, '\0');
+export default function DisciplineBox({
+  text,
+  className = '',
+  style,
+  link,
+  toggle = '>',
+}: DisciplineBoxProps) {
   return (
-    <div className={`text-green-400 font-mono text-lg draggable discipline-box ${className}`} style={style}>
-      <a href={link}><span className="dontWrap">{`${arrow}${text}`}</span></a>
+    <div
+      className={`discipline-box flex items-center px-4 py-2 rounded-lg shadow-md bg-gradient-to-r from-gray-900 to-gray-800 ${className}`}
+      style={style}
+    >
+      {link ? (
+        <a
+          href={link}
+          className="flex items-center space-x-2 hover:text-green-500 focus:text-green-600 transition-transform duration-300"
+          rel="noopener noreferrer"
+        >
+          <span className="toggle-symbol">{toggle}</span>
+          <span className="dontWrap">{text}</span>
+        </a>
+      ) : (
+        <span className="flex items-center space-x-2">
+          <span className="toggle-symbol">{toggle}</span>
+          <span className="dontWrap">{text}</span>
+        </span>
+      )}
     </div>
   );
 }

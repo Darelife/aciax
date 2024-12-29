@@ -42,10 +42,11 @@ export default function TemplateComponent({ category, items, courseId }: Templat
 
   return (
     <div>
-      <Nav text={category} />
-      <a href={`${courseId}/checklist`}>Checklist</a>
+      <Nav text={category} checklist={`${courseId}/checklist`}/>
+      {/* <a href={`${courseId}/checklist`}>Checklist</a> */}
       <br />
-      <div style={{ position: "absolute", top: "85px" }}>
+      {/* <div style={{ position: "absolute", top: "85px" }}> */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
         {items && items.length > 0 ? (
           items.map((item, index) => (
             <div key={index} className="draggable-container">

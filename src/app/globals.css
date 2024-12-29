@@ -79,6 +79,31 @@ body {
   text-decoration: none; /* Remove underline from link */
 }
 
+.discipline-box {
+  color: #00ff7f; /* Modern green */
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0 5px rgba(0, 255, 127, 0.8);
+  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.discipline-box:hover {
+  transform: scale(1.05);
+  background-color: #1f1f2e;
+  box-shadow: 0 4px 15px rgba(0, 255, 127, 0.4);
+}
+
+.discipline-box a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.toggle-symbol {
+  font-size: 1.2em;
+  color: #00e676;
+  margin-right: 0.5rem;
+  text-shadow: 0 0 8px rgba(0, 255, 127, 0.7);
+}
+
 .overflow-ellipsis {
   white-space: nowrap;
 }

@@ -214,10 +214,10 @@ function Home() {
 
   return (
     <div>
-      <Nav text="ACIAX : The Academic Information Exchange Hub For BITS Goa" />
-      <button onClick={handleLogout}>Logout</button>
+      <Nav text="ACIAX : The Academic Information Exchange Hub For BITS Goa" onLogout={handleLogout} />
+      {/* <button onClick={handleLogout}>Logout</button> */}
       <br />
-      <div style={{ position: "relative" }}>
+      {/* <div style={{ position: "relative" }}>
         {items.map((item, index) => (
           <DisciplineBox
             key={index}
@@ -227,9 +227,24 @@ function Home() {
             style={{ position: 'absolute', top: `${30 + index * 30}px` }}
           />
         ))}
-      </div>   
+      </div>    */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+        {items.map((item, index) => (
+          <DisciplineBox
+            key={index}
+            className={index === items.length - 1 ? 'col-span-1 text-center draggable' : 'draggable'}
+            text={item.text}
+            link={item.link}
+          />
+        ))}
+      </div>
 
-      <div style={{ position: 'absolute', top: 'max(90vh, 550px)' }} className='text-green-400'>
+
+
+
+
+      <br />
+      <div className='text-green-400'>
         Hey guys, this website will only function if you all help out by contributing to the <u><a href="https://github.com/Darelife/aciax/">Github Repo</a></u>
         <br />
         Or just the <u><a href="https://github.com/Darelife/aciax/blob/master/public/database.json">Database</a></u>, <u><a href="https://github.com/Darelife/aciax/blob/master/public/checklist.json">Checklist</a></u>, and the <u><a href="https://github.com/Darelife/aciax/blob/master/public/subjectNames.json">Subject Names</a></u>

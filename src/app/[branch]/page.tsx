@@ -71,7 +71,8 @@ function Home() {
       {/* <h1>{pathname.slice(1).toUpperCase()}</h1> */}
       <Nav text={`${pathname.slice(1).toUpperCase()} : ${branchTag[pathname]}`} />
 
-      <div style={{ position: "absolute", top:"85px" }}>
+      {/* <div style={{ position: "absolute", top:"85px" }}> */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
         {subjects.map((subject, index) => (
           <DisciplineBox
             key={index}

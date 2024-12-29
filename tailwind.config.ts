@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      gridTemplateColumns: {
+        '3-auto': 'repeat(3, auto)', // Optional: Adjust for better sizing
+      },
     },
   },
   plugins: [],
