@@ -118,6 +118,7 @@ import withAuth from '../../hoc/withAuth';
 import AuthContext from '../../context/AuthContext';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation';
+import Contributors from './components/Contributors';
 
 function Home() {
   const router = useRouter();
@@ -247,11 +248,61 @@ function Home() {
 
 
       <br />
-      <div className='text-green-400'>
+      {/* <div className='text-green-400'>
         Hey guys, this website will only function if you all help out by contributing to the <u><a href="https://github.com/Darelife/aciax/">Github Repo</a></u>
         <br />
         Or just the <u><a href="https://github.com/Darelife/aciax/blob/master/public/database.json">Database</a></u>, <u><a href="https://github.com/Darelife/aciax/blob/master/public/checklist.json">Checklist</a></u>, and the <u><a href="https://github.com/Darelife/aciax/blob/master/public/subjectNames.json">Subject Names</a></u>
-      </div>
+      </div> */}
+      <div className="text-green-400 p-4 bg-gray-800 rounded-md m-5">
+  <p>
+    Hey guys, this website will only function if you all help out by contributing to the{' '}
+    <u>
+      <a
+        href="https://github.com/Darelife/aciax/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-400"
+      >
+        Github Repo
+      </a>
+    </u>.
+  </p>
+  <p className="mt-2">
+    Or you can contribute directly to the{' '}
+    <u>
+      <a
+        href="https://github.com/Darelife/aciax/blob/master/public/database.json"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-400"
+      >
+        Database
+      </a>
+    </u>,{' '}
+    <u>
+      <a
+        href="https://github.com/Darelife/aciax/blob/master/public/checklist.json"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-400"
+      >
+        Checklist
+      </a>
+    </u>, and the{' '}
+    <u>
+      <a
+        href="https://github.com/Darelife/aciax/blob/master/public/subjectNames.json"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-400"
+      >
+        Subject Names
+      </a>
+    </u>.
+  </p>
+</div>
+
+      <Contributors />
     </div>
   );
 }
