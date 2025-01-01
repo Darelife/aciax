@@ -253,7 +253,7 @@ function Home() {
         <br />
         Or just the <u><a href="https://github.com/Darelife/aciax/blob/master/public/database.json">Database</a></u>, <u><a href="https://github.com/Darelife/aciax/blob/master/public/checklist.json">Checklist</a></u>, and the <u><a href="https://github.com/Darelife/aciax/blob/master/public/subjectNames.json">Subject Names</a></u>
       </div> */}
-      <div className="text-green-400 p-4 bg-gray-800 rounded-md m-5">
+<div className="text-green-400 p-4 bg-gray-800 rounded-md mb-9 mt-3 ml-5 mr-5">
   <p>
     Hey, this website will only function if you help out by contributing to the{' '}
     <u>
@@ -267,7 +267,7 @@ function Home() {
       </a>
     </u>.
   </p>
-  <p className="mt-6">
+  <p className="mt-6 sm:mt-2">
     Or you can contribute directly to the{' '}
     <u>
       <a
@@ -300,7 +300,7 @@ function Home() {
       </a>
     </u>.
   </p>
-  <p className="mt-6">
+  <p className="mt-6 sm:mt-2">
     The Contribution Guide is in the <u><a 
       className="hover:text-blue-400" 
       href="https://github.com/Darelife/aciax/blob/master/README.md" 
