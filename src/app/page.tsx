@@ -255,7 +255,7 @@ function Home() {
       </div> */}
       <div className="text-green-400 p-4 bg-gray-800 rounded-md m-5">
   <p>
-    Hey guys, this website will only function if you all help out by contributing to the{' '}
+    Hey, this website will only function if you help out by contributing to the{' '}
     <u>
       <a
         href="https://github.com/Darelife/aciax/"
@@ -267,7 +267,7 @@ function Home() {
       </a>
     </u>.
   </p>
-  <p className="mt-2">
+  <p className="mt-6">
     Or you can contribute directly to the{' '}
     <u>
       <a
@@ -299,6 +299,13 @@ function Home() {
         Subject Names
       </a>
     </u>.
+  </p>
+  <p className="mt-6">
+    The Contribution Guide is in the <u><a 
+      className="hover:text-blue-400" 
+      href="https://github.com/Darelife/aciax/blob/master/README.md" 
+      rel="noopener noreferrer" 
+      target="_blank">README.md</a></u> file of the github repository
   </p>
 </div>
 
