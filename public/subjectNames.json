@@ -8,7 +8,8 @@
     "csf212" : "Database Systems and Management"
   },
   "math":{
-    "mathf211" : "Mathematics III (M3)"
+    "mathf211" : "Mathematics III (M3)",
+    "mathf112" : "Mathematics II (M2)"
   },
   "eee" : {
     "eeef111" : "Electrical Sciences"
