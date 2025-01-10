@@ -80,6 +80,10 @@
       },
       "Drive" : {
         "Ascii Archive" : "https://drive.google.com/drive/folders/1QGOVvhSpxJfajin1sR_sPrNLzjgRvhH5?usp=sharing"
+      },
+      "Quick Links 2024-25" : {
+        "Handout" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125406/mod_resource/content/1/CS_F211_DSA.pdf",
+        "Chapter 1,2,3 Slides" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125416/mod_resource/content/1/chaptr01_02_03.pdf"
       }
     },
     "csf214" : {
@@ -106,6 +110,12 @@
       },
       "Drive" : {
         "Ascii Archive" : "https://drive.google.com/drive/folders/1OZHDHT-Me-_hjwzwjF__E_b7y9Kphw4y?usp=sharing"
+      },
+      "Quick Links 2024-25" : {
+        "Handout" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125316/mod_resource/content/1/MUPI_24_25.pdf",
+        "MUPI_Introduction Slide" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125315/mod_resource/content/1/MUPI_Introduction.pdf",
+        "MUPI_Architecture Slide" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125770/mod_resource/content/1/MUPI_Architecture.pdf",
+        "Tutorial 1 : Number Theory" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125891/mod_resource/content/1/MUPtutorial1.pdf"
       }
     },
     "csf212" : {
@@ -123,6 +133,15 @@
       },
       "Drive" : {
         "Ascii Archive" : "https://drive.google.com/drive/folders/1kdKIcz9X-5deEAFqERf8djdyqfQDcDVb?usp=sharing"
+      },
+      "Quick Links 2024-25" : {
+        "Handout" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125626/mod_resource/content/1/CSF212_2_24-25.pdf",
+        "Textbook - Ramakrishnan" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125620/mod_resource/content/1/Ramakrishnan%20-%20Database%20Management%20Systems%203rd%20Edition.pdf",
+        "Reference - Korth 6th edition" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125621/mod_resource/content/1/Database%20System%20Concepts%2C%206th%20Edition.pdf",
+        "Reference - Korth 7th edition" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125623/mod_resource/content/1/Database-System-Concepts-7th-Edition.pdf",
+        "Reference - Bipin Desai" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125624/mod_resource/content/1/An-Introduction-to-Database-Systems-Bipin-C.DESAI.pdf",
+        "Reference - Elmarsi Navathe" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125625/mod_resource/content/1/Fundamentals_of_Database_Systems%2C_6th_Edition.pdf",
+        "Introduction Slides" : "https://quantaaws.bits-goa.ac.in/pluginfile.php/125619/mod_resource/content/1/1%20Introduction.pdf"
       }
     }
   }, 
