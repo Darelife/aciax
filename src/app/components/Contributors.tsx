@@ -13,6 +13,10 @@ function Contributors() {
   const repoOwner = 'Darelife';
   const repoName = 'aciax';
 
+  const nonGithubContributors: string[] = [
+    "whosatvikagwl"
+  ]
+
   useEffect(() => {
     async function fetchContributors() {
       try {
@@ -24,6 +28,17 @@ function Contributors() {
           const userData = await userResponse.json();
           data[i].login = userData.name || data[i].login;
         }
+        const additionalContributors = await Promise.all(nonGithubContributors.map(async (login, index) => {
+          const userResponse = await fetch(`https://api.github.com/users/${login}`);
+          const userData = await userResponse.json();
+          return {
+            id: data.length + index + 1,
+            login: userData.name || login,
+            avatar_url: userData.avatar_url,
+            html_url: userData.html_url,
+          };
+        }));
+        data.push(...additionalContributors);
         setContributors(data);
       } catch (error) {
         console.error('Error fetching contributors:', error);
