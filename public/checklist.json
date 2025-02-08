@@ -41,6 +41,16 @@
         ]
       }
     },
+    "csf213" : {
+      "name" : "Object Oriented Programmning",
+      "CheckList" : {
+        "Introduction" : [
+            "Java Basics",
+            "Java Syntax and Styles",
+            "Strings"
+        ],
+      }
+    },
     "csf211" : {
       "name" : "Data Structures and Algorithms",
       "CheckList" : {
