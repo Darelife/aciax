@@ -1,71 +1,86 @@
 {
-  "cse" : {
-    "csf111" : {
-      "name":"C Programming",
-      "CheckList" : {
-        "Introduction" : [
+  "cse": {
+    "csf111": {
+      "name": "C Programming",
+      "CheckList": {
+        "Introduction": [
           "C Basics",
           "Expressions",
           "Operators",
           "Functions",
           "Conditionals"
         ],
-        "Recursion, Loops & Others" : [
+        "Recursion, Loops & Others": [
           "Recursion",
           "Recursion Extra Practice",
           "Strings",
           "Arrays",
           "Loops"
         ],
-        "Pointers" : [
+        "Pointers": [
           "Pointers Basics",
           "Double Pointers",
           "Quadruple Pointers"
         ],
-        "Dynamic Memory Allocation" : [
+        "Dynamic Memory Allocation": [
           "Malloc",
           "Calloc",
           "Free",
           "Realloc (In Syllabus??)",
           "Tripple & Quad Pointers with DMA"
         ],
-        "File IO" : [
+        "File IO": [
           "fopen & fclose",
           "fputs, fgets, etc",
           "checked geekforgeeks"
         ],
-        "Others" : [
+        "Others": [
           "Linked List",
           "Operator precedence",
           "Miscellaneous"
         ]
       }
     },
-    "csf213" : {
-      "name" : "Object Oriented Programmning",
-      "CheckList" : {
-        "Introduction" : [
-            "Java Basics",
-            "Java Syntax and Styles",
-            "Strings"
+    "csf213": {
+      "name": "Object Oriented Programmning",
+      "CheckList": {
+        "Introduction": [
+          "Java Basics",
+          "Java Syntax and Styles",
+          "Strings"
         ],
+        "OOP": [
+          "Classes",
+          "Inheritence",
+          "Polymorphism",
+          "Interfaces",
+          "Nested Classes"
+        ]
       }
     },
-    "csf211" : {
-      "name" : "Data Structures and Algorithms",
-      "CheckList" : {
-        "Introduction" : [
+    "csf215": {
+      "name": "Digital Design",
+      "CheckList": {
+        "Introduction": [
+          "Binary,Decimal,Hexadecimal Conversions"
+        ]
+      }
+    },
+    "csf211": {
+      "name": "Data Structures and Algorithms",
+      "CheckList": {
+        "Introduction": [
           "Introduction",
           "Growth Function",
           "θ Notation, O Notation, Ω Notation",
           "Divide and Conquer & Recurrence Relation"
         ],
-        "Sorting" : [
+        "Sorting": [
           "Heapsort",
           "Quicksort",
           "Sorting in O(n)"
         ],
-        "Data Structures" : [
+        "Data Structures": [
           "Stack",
           "Queue",
           "Linked List",
@@ -73,7 +88,7 @@
           "Binary Search Tree",
           "Red Black Tree"
         ],
-        "Graph" : [
+        "Graph": [
           "Elementary Graph Algorithms",
           "BFS",
           "DFS",
@@ -87,29 +102,29 @@
         ]
       }
     },
-    "csf241" : {
-      "name" : "Microprocessors and Interfacing",
-      "CheckList" : {
-        "Introduction" : [
+    "csf241": {
+      "name": "Microprocessors and Interfacing",
+      "CheckList": {
+        "Introduction": [
           "Computer Architecture, Memory and IO, CISC & RISC",
           "Programming Model, Real & Protected Addressing mode, memory paging, Flat mode memory"
         ],
-        "Assembly" : [
+        "Assembly": [
           "Addressing Modes",
           "Instruction Set and ALP"
         ],
-        "Hardware + Memory" : [
+        "Hardware + Memory": [
           "Pin Out, Modes of operation, Clocking, Buses",
           "Memory Devices, Address Decoding- Memory Interface 8086- 80386"
         ],
-        "IO and Interrupts" : [
+        "IO and Interrupts": [
           "IO Interface",
           "IO Port Address",
           "Types of Interrupts",
           "Vector Tables",
           "Priority Schemes"
         ],
-        "Programmable Peripheral Devices & DMA" : [
+        "Programmable Peripheral Devices & DMA": [
           "8255",
           "8254",
           "ADC",
@@ -121,7 +136,7 @@
           "Disc Memory Systems",
           "Video Displays"
         ],
-        "Bus Interface & Advanced Processors" : [
+        "Bus Interface & Advanced Processors": [
           "ISA, PCI, Com, USB, AGP",
           "80286",
           "MIPS"
@@ -129,15 +144,15 @@
       }
     }
   },
-  "eee" : {
-    "eeef111" : {
-      "name" : "Electrical Sciences",
-      "CheckList" : {
-        "Introduction" : [
+  "eee": {
+    "eeef111": {
+      "name": "Electrical Sciences",
+      "CheckList": {
+        "Introduction": [
           "Revision of Basic Concepts",
           "Independent and Dependent Sources"
         ],
-        "Circuit Analysis" : [
+        "Circuit Analysis": [
           "KVL & KCL",
           "Nodal Analysis",
           "Mesh Analysis",
@@ -146,28 +161,28 @@
           "Norton",
           "Linearity & Superposition"
         ],
-        "Time Domain" : [
+        "Time Domain": [
           "Inductors",
           "Capacitors",
           "First Order Circuits",
           "Second Order Circuits"
         ],
-        "AC Circuits" : [
+        "AC Circuits": [
           "Time & Frequency Domain",
           "Power"
         ],
-        "Polyphase Circuits" : [
+        "Polyphase Circuits": [
           "3 Phase Circuit",
           "Star",
           "Delta",
           "Star-Delta Conversion",
           "Power"
         ],
-        "Frequency Response" : [
+        "Frequency Response": [
           "Frequency response",
           "Resonance in Parallel & Series"
         ],
-        "Semi Conductors" : [
+        "Semi Conductors": [
           "Intrinsic & Doped",
           "PN Junction"
         ],
@@ -177,7 +192,7 @@
           "Rectifiers",
           "Clippers"
         ],
-        "Transistors" : [
+        "Transistors": [
           "NPN & PNP",
           "Cut Off",
           "Saturation",
