@@ -1,20 +1,22 @@
 {
-  "cse":{
-    "csf111" : "C Programming",
-    "csf222" : "Discrete Structures for CS",
-    "csf211" : "Data Structures and Algorithms",
-    "csf214" : "Logic in Computer Science",
-    "csf241" : "Microprocessors and Interfacing",
-    "csf212" : "Database Systems and Management"
+  "cse": {
+    "csf111": "C Programming",
+    "csf222": "Discrete Structures for CS",
+    "csf213": "Object Oriented Programming",
+    "csf215": "Digital Design",
+    "csf211": "Data Structures and Algorithms",
+    "csf214": "Logic in Computer Science",
+    "csf241": "Microprocessors and Interfacing",
+    "csf212": "Database Systems and Management"
   },
-  "math":{
-    "mathf211" : "Mathematics III (M3)",
-    "mathf112" : "Mathematics II (M2)"
+  "math": {
+    "mathf211": "Mathematics III (M3)",
+    "mathf112": "Mathematics II (M2)"
   },
-  "eee" : {
-    "eeef111" : "Electrical Sciences"
+  "eee": {
+    "eeef111": "Electrical Sciences"
   },
-  "bits" : {
-    "bitsf111" : "Thermodynamics"
+  "bits": {
+    "bitsf111": "Thermodynamics"
   }
 }
