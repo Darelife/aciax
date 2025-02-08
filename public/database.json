@@ -66,6 +66,31 @@
         "2-1 Ascii Drive" : "https://drive.google.com/drive/folders/1tVivmRdQw_3euXVtrJjxk73_X8j5nJDA?usp=sharing"
       }
     },
+    "csf213" :{
+      "Slides" :{
+          "2022":"https://drive.google.com/drive/folders/18b7G0DYnlD0mU1IPICxzQCq2laeQ7V-1?usp=drive_link"
+      },
+      "Comprehensive Exam" :{
+        "2022":"https://drive.google.com/file/d/12NwXtzdypxvlgRaI7npHo8I1elxjAdqL/view?usp=drive_link",
+        "2023":"https://drive.google.com/file/d/18zeaHbPEu4WwA1HR5_ivkLDpA1jh-zl9/view?usp=drive_link",
+        "2024":"https://drive.google.com/drive/u/1/folders/1GFgRmDYUPmSUO4rQMfaTD9iPMdTIBe0H"
+      },
+      "Midsemester Exam" :{
+        "2022" : "https://drive.google.com/file/d/1JJz-PJeT2MdX8FUJxBTbfC2aaggZ2GDs/view?usp=drive_link",
+        "2023 QP":"https://drive.google.com/file/d/1b_aY9FfehmPcanID0x5Ev0m5Ugvz85zB/view?usp=drive_link",
+        "2023 Soln":"https://drive.google.com/file/d/1QZRkt2hFFMzgwS97YJFrE17p4GoLa_Gv/view?usp=drive_link",
+        "2024":"https://drive.google.com/file/d/1Chv4kJ8Z_fp6hSqymBuLu8unLkaSOF5V/view?usp=drive_link"
+      },
+      "Drive" : {
+        "Ascii Archive" : "https://drive.google.com/drive/folders/1ClXRgRhOP08WxNEaLz07ooNdhpmjPGtS?usp=sharing",
+        "2-1 Ascii Drive" : "https://drive.google.com/drive/folders/1tVivmRdQw_3euXVtrJjxk73_X8j5nJDA?usp=sharing"
+      },
+      "Labs" : {
+        "2024":"https://drive.google.com/drive/folders/1kaUw-2kwrqA3KHmFpSSaDBLm91Qrm2HT?usp=drive_link",
+        "2023":"https://drive.google.com/drive/folders/1lldCsQgANfe5ns0KR80Utxj435vRsE-t?usp=drive_link",
+        "2022":"https://drive.google.com/drive/u/1/folders/1TdI6hBQPz6p5HsMwUOTjvYSBgzK4baHk"
+      }
+    },
     "csf211" : {
       "Midsemester Exam" : {
         "2023-24" : "https://drive.google.com/file/d/1dH-6S86sUjVC4jUKnVlwA0Ypajhy3EFa/view?usp=sharing",
