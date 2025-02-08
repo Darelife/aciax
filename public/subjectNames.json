@@ -2,6 +2,7 @@
   "cse":{
     "csf111" : "C Programming",
     "csf222" : "Discrete Structures for CS",
+    "csf213" : "Object Oriented Programming",
     "csf211" : "Data Structures and Algorithms",
     "csf214" : "Logic in Computer Science",
     "csf241" : "Microprocessors and Interfacing",
