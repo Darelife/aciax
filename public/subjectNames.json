@@ -1,6 +1,6 @@
 {
   "cse": {
-    "csf111": "C Programming",
+    "csf111": "Computer Programming",
     "csf222": "Discrete Structures for CS",
     "csf213": "Object Oriented Programming",
     "csf215": "Digital Design",
@@ -12,12 +12,31 @@
   },
   "math": {
     "mathf211": "Mathematics III (M3)",
-    "mathf112": "Mathematics II (M2)"
+    "mathf112": "Mathematics II (M2)",
+    "mathf111": "Mathematics I (M1)",
+    "mathf113": "Probability and Statistics"
   },
   "eee": {
     "eeef111": "Electrical Sciences"
   },
   "bits": {
-    "bitsf111": "Thermodynamics"
+    "bitsf111": "Thermodynamics",
+    "bitsf110": "Engineering Graphics",
+    "bitsf112": "Technical Report Writing"
+  },
+  "bio": {
+    "biof110": "Biology Laboratory",
+    "biof111": "General Biology"
+  },
+  "chem": {
+    "chemf110": "Chemistry Laboratory",
+    "chemf111": "General Chemistry"
+  },
+  "phy": {
+    "phyf110": "Physics Laboratory",
+    "phyf111": "Mechanics, Oscillations and Waves"
+  },
+  "me": {
+    "mef112": "Workshop Practice"
   }
 }
