@@ -1,11 +1,11 @@
 {
-  "cse": {
-    "f222" : {
+  "cs": {
+    "f222": {
       "Books": {
-        "Rosen Discrete Mathematics and Its Applications 7th Edition.pdf" : {
-          "github":"https://github.com/Darelife/booksDB/blob/main/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
-          "drive":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/darelife/booksDB/main/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
-          "download":"https://raw.githubusercontent.com/darelife/booksDB/main/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf"
+        "Rosen Discrete Mathematics and Its Applications 7th Edition.pdf": {
+          "github": "https://github.com/Darelife/booksDB/blob/main/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
+          "drive": "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/darelife/booksDB/main/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf",
+          "download": "https://raw.githubusercontent.com/darelife/booksDB/main/Rosen%20Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition.pdf"
         }
       }
     }

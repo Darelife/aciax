@@ -1,5 +1,5 @@
 {
-  "cse": {
+  "cs": {
     "csf111": {
       "name": "C Programming",
       "CheckList": {
@@ -34,21 +34,13 @@
           "fputs, fgets, etc",
           "checked geekforgeeks"
         ],
-        "Others": [
-          "Linked List",
-          "Operator precedence",
-          "Miscellaneous"
-        ]
+        "Others": ["Linked List", "Operator precedence", "Miscellaneous"]
       }
     },
     "csf213": {
       "name": "Object Oriented Programmning",
       "CheckList": {
-        "Introduction": [
-          "Java Basics",
-          "Java Syntax and Styles",
-          "Strings"
-        ],
+        "Introduction": ["Java Basics", "Java Syntax and Styles", "Strings"],
         "OOP": [
           "Classes",
           "Inheritence",
@@ -61,9 +53,7 @@
     "csf215": {
       "name": "Digital Design",
       "CheckList": {
-        "Introduction": [
-          "Binary,Decimal,Hexadecimal Conversions"
-        ]
+        "Introduction": ["Binary,Decimal,Hexadecimal Conversions"]
       }
     },
     "csf211": {
@@ -75,11 +65,7 @@
           "θ Notation, O Notation, Ω Notation",
           "Divide and Conquer & Recurrence Relation"
         ],
-        "Sorting": [
-          "Heapsort",
-          "Quicksort",
-          "Sorting in O(n)"
-        ],
+        "Sorting": ["Heapsort", "Quicksort", "Sorting in O(n)"],
         "Data Structures": [
           "Stack",
           "Queue",
@@ -109,10 +95,7 @@
           "Computer Architecture, Memory and IO, CISC & RISC",
           "Programming Model, Real & Protected Addressing mode, memory paging, Flat mode memory"
         ],
-        "Assembly": [
-          "Addressing Modes",
-          "Instruction Set and ALP"
-        ],
+        "Assembly": ["Addressing Modes", "Instruction Set and ALP"],
         "Hardware + Memory": [
           "Pin Out, Modes of operation, Clocking, Buses",
           "Memory Devices, Address Decoding- Memory Interface 8086- 80386"
@@ -167,10 +150,7 @@
           "First Order Circuits",
           "Second Order Circuits"
         ],
-        "AC Circuits": [
-          "Time & Frequency Domain",
-          "Power"
-        ],
+        "AC Circuits": ["Time & Frequency Domain", "Power"],
         "Polyphase Circuits": [
           "3 Phase Circuit",
           "Star",
@@ -182,10 +162,7 @@
           "Frequency response",
           "Resonance in Parallel & Series"
         ],
-        "Semi Conductors": [
-          "Intrinsic & Doped",
-          "PN Junction"
-        ],
+        "Semi Conductors": ["Intrinsic & Doped", "PN Junction"],
         "Diodes": [
           "Ideal & Non Ideal",
           "Zenner Diode",

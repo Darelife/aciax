@@ -1,41 +1,44 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import { usePathname } from 'next/navigation';
-import TemplateComponent from '../../components/TemplateComponent';
-import NotFound from 'next/error';
-import withAuth from '../../../../hoc/withAuth';
+import React, { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import TemplateComponent from "../../components/TemplateComponent";
+import NotFound from "next/error";
+import withAuth from "../../../../hoc/withAuth";
 
 function Home() {
   const pathname = usePathname();
-  const branch = pathname.split('/')[1];
-  const subject = pathname.split('/')[2];
+  const branch = pathname.split("/")[1];
+  const subject = pathname.split("/")[2];
   console.log(subject);
 
   const [accepted, setAccepted] = useState(false);
-  const [items, setItems] = useState<{ text: string; link: { [key: string]: string } }[]>([]);
+  const [items, setItems] = useState<
+    { text: string; link: { [key: string]: string } }[]
+  >([]);
   const [loading, setLoading] = useState(true); // Introduce a loading state
-  const [subjectTag, setSubjectTag] = useState<string>('');
+  const [subjectTag, setSubjectTag] = useState<string>("");
 
-  const branchName: { [key: string]: string } = {
-    "cse" : "CS",
-    "mnc" : "MNC",
-    "ece" : "ECE",
-    "eee" : "EEE",
-    "eni" : "ENI",
-    "mech" : "MECH",
-    "ch" : "CHE",
-    "eco" : "ECO",
-    "math" : "MATH",
-    "phy" : "PHY",
-    "chem" : "CHEM",
-    "bio" : "BIO",
-    "bits" : "BITS"
-  }
+  // const branchName: { [key: string]: string } = {
+  //   "cs" : "CS",
+  //   "mac" : "MNC",
+  //   "ece" : "ECE",
+  //   "eee" : "EEE",
+  //   "eni" : "ENI",
+  //   "ecom": "ECOM",
+  //   "me" : "ME",
+  //   "che" : "CHE",
+  //   "econ" : "ECON",
+  //   "math" : "MATH",
+  //   "phy" : "PHY",
+  //   "chem" : "CHEM",
+  //   "bio" : "BIO",
+  //   "bits" : "BITS"
+  // }
 
   useEffect(() => {
     setLoading(true); // Start loading
-    fetch('/database.json')
+    fetch("/database.json")
       .then((response) => response.json())
       .then((data) => {
         const items = Object.keys(data[branch]?.[subject] || {}).map((key) => ({
@@ -54,11 +57,11 @@ function Home() {
       .finally(() => {
         setLoading(false); // Stop loading after fetching is complete
       });
-    fetch('/subjectNames.json')
+    fetch("/subjectNames.json")
       .then((response) => response.json())
       .then((data) => {
         setSubjectTag(data[branch.toLowerCase()][subject.toLowerCase()]);
-      })
+      });
   }, [branch, subject]); // Add branch and subject as dependencies to refetch when they change
 
   if (loading) {
@@ -69,7 +72,13 @@ function Home() {
   if (accepted) {
     return (
       <div>
-        <TemplateComponent category={`${branchName[branch.toLowerCase()]} F${subject.slice(-3)} : ${subjectTag}`} items={items} courseId={subject}/>
+        <TemplateComponent
+          category={`${branch.toUpperCase()} F${subject.slice(
+            -3
+          )} : ${subjectTag}`}
+          items={items}
+          courseId={subject}
+        />
       </div>
     );
   } else {
