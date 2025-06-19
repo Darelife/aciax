@@ -309,7 +309,7 @@
         "2023-24": "https://drive.google.com/file/d/1OlXvzsUwhpJqgUgZcFJ9VjiO9FapOTIT/view?usp=sharing",
         "2022-23": "https://drive.google.com/file/d/1DJabMXAEWJk9HU5wwUyuZoW-J45IfDj7/view?usp=sharing"
       },
-      "Book": {
+      "Books": {
         "Elementary Linear Algebra": "https://drive.google.com/file/d/1prg7i5GAGUwgN5Xlj_ND7J8oJZij9MWl/view?usp=sharing",
         "Elementary Linear Algebra Solutions (9th Ed)": "https://drive.google.com/file/d/1QRh3SkfujnSr8yt3EZAuXW4n4ovNLpV4/view?usp=drive_link",
         "Complex Variables and Applications": "https://drive.google.com/file/d/1G-pYD6IQX5w_4JdjDCwpe6NstWV0E2j4/view?usp=drive_link",
@@ -427,6 +427,31 @@
         "2023-24 By Raj Rahul": "https://drive.google.com/drive/folders/15JndNQ1606oBza6iZb4HQoONHswhiMM1?usp=sharing",
         "2023-24 By Balram Bhala": "https://drive.google.com/drive/folders/1oYqehXlHkhXwc94ADJBEuADTdzHq74Px?usp=sharing",
         "2022-23 By Shamit Khetan": "https://drive.google.com/drive/folders/17W7q-jmbF0eOr1GH0rymexK5E1IKz6Dt?usp=sharing"
+      }
+    }
+  },
+  "bio": {
+    "biof110": {
+      "Handouts": {
+        "2024-25 Sem 2": "https://docs.google.com/document/d/1Cc-J1GalGJYtNoVnu-f9jnfRlSxGfPes/edit?usp=drive_link&ouid=118117759723191078227&rtpof=true&sd=true",
+        "2024-25 Sem 1": "https://docs.google.com/document/d/1YeFMpoMuhPphsc4RGGBfNsvwgwMQ23yS/edit?usp=drive_link&ouid=118117759723191078227&rtpof=true&sd=true"
+      },
+      "Books": {
+        "2024-25 Sem 2 Manual": "https://docs.google.com/document/d/1G5cxRPg98ZjXMmxaBxzs29btDa26hIIU/edit?usp=drive_link&ouid=118117759723191078227&rtpof=true&sd=true",
+        "2024-25 Sem 1 Manual": "https://docs.google.com/document/d/1d_-vs79iB2QwzSZg7-qVMLZtvr0XauGc/edit?usp=drive_link&ouid=118117759723191078227&rtpof=true&sd=true"
+      },
+      "Midsemester Exam": {
+        "2024-25 Sem 2 Batch 1": "https://drive.google.com/file/d/1Aald9qy2apqwbIwHeNfalQiX46ZhozjD/view?usp=drive_link",
+        "2024-25 Sem 2 Batch 2": "https://drive.google.com/file/d/1Aald9qy2apqwbIwHeNfalQiX46ZhozjD/view?usp=drive_link"
+      },
+      "Comprehensive Exam": {
+        "2024-25 Sem 2 Batch 1": "https://drive.google.com/file/d/1z9Hx34dbNNkK5F1JVfQWsijFAz2HH5EO/view?usp=drive_link",
+        "2024-25 Sem 2 Batch 2": "https://drive.google.com/file/d/1yy1X8jzI0cc2qluwHvIhTR5aJo89Bv9t/view?usp=drive_link",
+        "2024-25 Sem 1": "https://drive.google.com/file/d/1zGmcFBXy29zsVMTivqwHz1rfVqN8YMdQ/view?usp=drive_link"
+      },
+      "Drive Links": {
+        "2024-25 Sem 2": "https://drive.google.com/drive/folders/1JaH-i6yD0lm1EpbWBVadO4yt8j9njhV_?usp=drive_link",
+        "2024-25 Sem 1": "https://drive.google.com/drive/folders/1qPo8ENEt1epaJOMG0a636W9UdDWNqWbf?usp=drive_link"
       }
     }
   }
