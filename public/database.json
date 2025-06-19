@@ -7,8 +7,7 @@
         "2023-24 Handout 2": "https://drive.google.com/file/d/1Dm8ryAYZDDq7ih3Kqz6dgXMpTVLCoHia/view?usp=sharing"
       },
       "Books": {
-        "CP Textbook 2024-25": "https://drive.google.com/file/d/1WNHPXeV6M6HIbQ76ATI8y0YQPA8XrSv_/view?usp=drive_link",
-        "CP Textbook 2023-24": "https://drive.google.com/file/d/1t4uY2zLQR4gxQ3p8M9Mj2Ok_T585MmWG/view?usp=sharing"
+        "Problem Solving in C": "https://drive.google.com/file/d/1t4uY2zLQR4gxQ3p8M9Mj2Ok_T585MmWG/view?usp=sharing"
       },
       "Slides": {
         "2024-25": "https://drive.google.com/drive/folders/1ZVAJA9epv0mEoih1yVCyrDkHmbE3K2au?usp=drive_link",
@@ -483,6 +482,58 @@
       },
       "Drive Links": {
         "2024-25": "https://drive.google.com/drive/folders/141rqPNCqfFFHB4X5HMT8Bll6t-kUct09?usp=drive_link"
+      }
+    }
+  },
+  "chem": {
+    "chemf110": {
+      "Handouts": {
+        "2024-25 Sem 2": "https://drive.google.com/file/d/135HFlf0JKhy5P_eRhKikWg_Q7guQCijl/view?usp=drive_link",
+        "2024-25 Sem 1": "https://drive.google.com/file/d/1etR_PBJ80cLheviOw3iIsgl3aS3yGPAs/view?usp=drive_link"
+      },
+      "Books": {
+        "2024-25 Sem 1 Lab Manual": "https://drive.google.com/file/d/1r1CNJb1fGsLFU9ZUXPrH3tw9RBEl2fUb/view?usp=drive_link",
+        "2024-25 Sem 1 Lab Report": "https://drive.google.com/file/d/12KkDxms9GPKp1KS5g6HxicVB2gTfCOEV/view?usp=drive_link"
+      },
+      "Slides": {
+        "2024-25 Sem 1": "https://drive.google.com/drive/folders/1gt2OxDWxJI3EMkDxE_5r6slri1JuuZjq?usp=drive_link"
+      },
+      "Comprehensive Exam": {
+        "2024-25 Sem 2": "https://drive.google.com/file/d/12xoQn-7AL1aTU1MDvc06SwNRlUzZEoQh/view?usp=drive_link",
+        "2024-25 Sem 1": "https://drive.google.com/file/d/1bLR4RBJ8hAYm-FF6gd8wZ8CeJFCTflZ_/view?usp=drive_link"
+      },
+      "Drive Links": {
+        "2024-25 Sem 2": "https://drive.google.com/drive/folders/1MAmHceMPpQs26xJDJKD0fQU7ZkJFxPIW?usp=drive_link",
+        "2024-25 Sem 1": "https://drive.google.com/drive/folders/1y5a7Z4Rej8AWpi7PbryZJC41Bj7sfzZ7?usp=drive_link"
+      }
+    },
+    "chemf111": {
+      "Handouts": {
+        "2024-25": "https://drive.google.com/file/d/1qEAnJr92RRq4e08SE06izNWEi5vNGuNI/view?usp=drive_link"
+      },
+      "Books": {
+        "202x-2y": "ADD LATER"
+      },
+      "Tutorials": {
+        "202x-2y": "ADD DATA FOR OLDER YEARS IF AVAILABLE"
+      },
+      "Slides": {
+        "2024-25": "https://drive.google.com/drive/folders/17bWaV_FR-gZJzo9iZAWSb__OqbE3YMhc?usp=drive_link"
+      },
+      "Midsemester Exam": {
+        "2024-25": "https://drive.google.com/file/d/1nZDWrsvhkzcXgESfgxedUQeRZuo7SuIM/view?usp=drive_link"
+      },
+      "Comprehensive Exam": {
+        "2024-25": "https://drive.google.com/file/d/1iJ3MGIjEriQgR6eiPLum4zPqyrWOCeOI/view?usp=drive_link"
+      },
+      "Quiz 1": {
+        "2024-25": "https://drive.google.com/file/d/1KmR6z02l7yuz50mwaYU3VEZbcafC3x2W/view?usp=drive_link"
+      },
+      "Quiz 2": {
+        "2024-25": "https://drive.google.com/file/d/1yh1iQMUxDTEYThPwVpqvUjMXVPM2Nr2W/view?usp=drive_link"
+      },
+      "Drive Links": {
+        "2024-25": "https://drive.google.com/drive/folders/10HlZJxvsoaKcah49MHxQThTgOwkEAVUX?usp=drive_link"
       }
     }
   }
