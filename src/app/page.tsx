@@ -124,14 +124,15 @@ function Home() {
   const router = useRouter();
   const { logout } = useContext(AuthContext);
   const [items] = useState([
-    { text: "computer science", link: "/cse" },
-    { text: "math n comp", link: "/mnc" },
+    { text: "computer science", link: "/cs" },
+    { text: "math n comp", link: "/mac" },
     { text: "electronics n comm", link: "/ece" },
     { text: "electrical n electronics", link: "/eee" },
     { text: "electronics n instrumentation", link: "/eni" },
-    { text: "mechanical", link: "/mech" },
-    { text: "chemical", link: "/ch" },
-    { text: "economics", link: "/eco" },
+    { text: "electronics n computing", link: "/ecom" },
+    { text: "mechanical", link: "/me" },
+    { text: "chemical", link: "/che" },
+    { text: "economics", link: "/econ" },
     { text: "mathematics", link: "/math" },
     { text: "physics", link: "/phy" },
     { text: "chemistry", link: "/chem" },
