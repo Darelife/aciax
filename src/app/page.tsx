@@ -129,7 +129,7 @@ function Home() {
     { text: "electronics n comm", link: "/ece" },
     { text: "electrical n electronics", link: "/eee" },
     { text: "electronics n instrumentation", link: "/eni" },
-    { text: "electronics n computing", link: "/ecom" }
+    { text: "electronics n computing", link: "/ecom" },
     { text: "mechanical", link: "/me" },
     { text: "chemical", link: "/che" },
     { text: "economics", link: "/econ" },
