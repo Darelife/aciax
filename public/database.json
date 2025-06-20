@@ -44,7 +44,7 @@
       },
       "Practice Problems": {
         "2024-25": "https://drive.google.com/drive/folders/1HQ1vWQ6mLa3HhLj1qjIUqKg15u9Rs2SX",
-        "2023-24": "https://docs.google.com/document/d/18qavDA7gKLHS2oHCgYJS10OJAmK93LLx/edit&ouid=102544954867664250470&rtpof=true&sd=true",
+        "2023-24": "https://docs.google.com/document/d/18qavDA7gKLHS2oHCgYJS10OJAmK93LLx/edit?ouid=102544954867664250470&rtpof=true&sd=true",
         "2022-23": "https://drive.google.com/drive/folders/19_je9WYA4uwhUkQxUHJVLRJ63y-itYUe"
       },
       "Github Practice Files": {
@@ -464,12 +464,12 @@
   "bio": {
     "biof110": {
       "Handouts": {
-        "2024-25 Sem 2": "https://docs.google.com/document/d/1Cc-J1GalGJYtNoVnu-f9jnfRlSxGfPes/edit&ouid=118117759723191078227&rtpof=true&sd=true",
-        "2024-25 Sem 1": "https://docs.google.com/document/d/1YeFMpoMuhPphsc4RGGBfNsvwgwMQ23yS/edit&ouid=118117759723191078227&rtpof=true&sd=true"
+        "2024-25 Sem 2": "https://docs.google.com/document/d/1Cc-J1GalGJYtNoVnu-f9jnfRlSxGfPes/edit?ouid=118117759723191078227&rtpof=true&sd=true",
+        "2024-25 Sem 1": "https://docs.google.com/document/d/1YeFMpoMuhPphsc4RGGBfNsvwgwMQ23yS/edit?ouid=118117759723191078227&rtpof=true&sd=true"
       },
       "Books": {
-        "2024-25 Sem 2 Manual": "https://docs.google.com/document/d/1G5cxRPg98ZjXMmxaBxzs29btDa26hIIU/edit&ouid=118117759723191078227&rtpof=true&sd=true",
-        "2024-25 Sem 1 Manual": "https://docs.google.com/document/d/1d_-vs79iB2QwzSZg7-qVMLZtvr0XauGc/edit&ouid=118117759723191078227&rtpof=true&sd=true"
+        "2024-25 Sem 2 Manual": "https://docs.google.com/document/d/1G5cxRPg98ZjXMmxaBxzs29btDa26hIIU/edit?ouid=118117759723191078227&rtpof=true&sd=true",
+        "2024-25 Sem 1 Manual": "https://docs.google.com/document/d/1d_-vs79iB2QwzSZg7-qVMLZtvr0XauGc/edit?ouid=118117759723191078227&rtpof=true&sd=true"
       },
       "Midsemester Exam": {
         "2024-25 Sem 2 Batch 1": "https://drive.google.com/file/d/1Aald9qy2apqwbIwHeNfalQiX46ZhozjD/view",
@@ -634,6 +634,33 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1K-SBPFVICsFriM0mazJUjPIaWG7VlchJ",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1woevf9_K0xPAbC9Ox9mnUgnMa-LtGZdK"
+      }
+    }
+  },
+  "me": {
+    "mef112": {
+      "Handouts": {
+        "2024-25 Sem 2": "https://docs.google.com/document/d/1Y80M_TC8H1vMQrpFRMufhv_HKcUBpu1h/edit?ouid=118117759723191078227&rtpof=true&sd=true"
+      },
+      "Books": {
+        "Elements of Manufacturing Processes": "https://drive.google.com/file/d/1UEe0qEfG2QAhFrgHf-8k3ptqNcnei6lo/view"
+      },
+      "Slides": {
+        "General (Same for years)": "https://drive.google.com/file/d/14WnbGF3WuxJWOMpHMkg_gscs5ytJYU2C/view",
+        "2022-23": "https://drive.google.com/drive/folders/1z_P0hK5FGXwKz0sL8TMrQ2WqIRqkhIBj"
+      },
+      "Comprehensive Exam": {
+        "2024-25 Sem 2": "https://drive.google.com/file/d/12JD5lQI4BdldFoJaQG9Isqzhp5xM_rMe/view",
+        "2024-25 Sem 1": "https://drive.google.com/file/d/1cplZiJNqYh6hLwXvryDhE_yN87zeTwwQ/view"
+      },
+      "Miscellaneous": {
+        "Videos of Practicals": "https://drive.google.com/drive/folders/1izoLkskznehpedGn91ZxBdxaTD0cIhcv",
+        "Sample Reports (Various Years)": "https://drive.google.com/drive/folders/1cQALndCT10hU7CtMkIQ3NCSOh9aDOSAW",
+        "In Class Practice Quizzes": "https://drive.google.com/drive/folders/1zMjMSlBKMKB-VByjpZLlkXEE7IYl_N28"
+      },
+      "Drive Links": {
+        "2024-25 Sem 2": "https://drive.google.com/drive/folders/1U_F1xaeP5eQyDndvUDxsiQy6ebniXnBW",
+        "2024-25 Sem 1": "https://drive.google.com/drive/folders/1X_femhmEewGtnx1BSXwu_-pwUWbgXwzp"
       }
     }
   }
