@@ -2,6 +2,7 @@
   "cs": {
     "csf111": {
       "Handout": {
+        "2025-26 Handout": "https://docs.google.com/document/d/1Ui0x-IzOjMewxQEJEiBDeJcq_8_k_TL1/view",
         "2024-25 Handout": "https://drive.google.com/file/d/1-xjq3jDHieO6EQs6DYEtD69ybxIVvtgz/view",
         "2023-24 Handout 1": "https://drive.google.com/file/d/1pxViKLltR1oH6NTOPdaUfdpPHHOJqV5z/view",
         "2023-24 Handout 2": "https://drive.google.com/file/d/1Dm8ryAYZDDq7ih3Kqz6dgXMpTVLCoHia/view"
@@ -10,27 +11,34 @@
         "Problem Solving in C": "https://drive.google.com/file/d/1t4uY2zLQR4gxQ3p8M9Mj2Ok_T585MmWG/view"
       },
       "Slides": {
+        "2025-26": "https://drive.google.com/drive/folders/1bRo0zgGoL_Y4GQg4QQF5Io9ix88oERAl",
         "2024-25": "https://drive.google.com/drive/folders/1ZVAJA9epv0mEoih1yVCyrDkHmbE3K2au",
         "2023-24": "https://drive.google.com/drive/folders/1wyKzXGoHWDaJSrBpw7D3CMvGVK00K3Uq",
         "2022-23": "https://drive.google.com/drive/folders/1By5zKSI7j8dCvHblhYaOrvjx2tCit6iB"
       },
       "Midsemester Exam": {
+        "2025-26 QP": "https://drive.google.com/file/d/1RQi9TWcE-D79FCwwiag_zZUs7thUWZjR/view",
+        "2025-26 Soln": "https://drive.google.com/file/d/1hyK3JIDZae5QQVeNu-uPpF2YeEXKtPVC/view",
         "2024-25": "https://drive.google.com/drive/folders/1FSSpX6FonGoWCYLaIgQ2M2CZdOmtpCbH",
         "2023-24": "https://drive.google.com/file/d/1LvSLpTyUutn6zWw9mVvCK-gfuo6Dhs7L/view",
         "2022-23": "https://drive.google.com/file/d/1cf05J2bsX71eOG70GKBpkBTN-VAdMxEX/view",
         "2021-22": "https://drive.google.com/file/d/1IDY4Vs6_Af7_F3PVoC5AvyYXb_KI11ah/view"
       },
       "Comprehensive Exam": {
+        "2025-26 QP": "https://drive.google.com/file/d/1AXFy9YD_vFOkp17kFf8C4f-nc7LWcuQK/view",
+        "2025-26 Soln": "https://drive.google.com/file/d/1b0ut6YW3M_pWl6It1mneK_6CXPQJ2XkV/view",
         "2023-24": "https://drive.google.com/file/d/1Wq-ueALrSh1eW-9DV9q-v5BYE25T9JN3/view",
         "2022-23": "https://drive.google.com/file/d/1Q0b1QB9Qvrm2g7ZXAbLg002xGjClArEj/view",
         "2021-22": "https://drive.google.com/file/d/1L8XMNEU1P99Mtzh5kIlZit0DBfo9mgvr/view"
       },
       "In Class Quizzes": {
+        "2025-26": "https://drive.google.com/drive/folders/1AiOMdudgIX0IYgYOXCCsTVuDXldmfzDM",
         "2024-25 All profs": "https://drive.google.com/drive/folders/1jVjliVXsnwPtiYK4snSIsdkIBS5e8ZnL",
         "2023-24 Arnab Paul": "https://drive.google.com/drive/folders/1d0RuyXrhkXplphGAgzE2zCDF3TsHm_Mv",
         "2022-23 All profs": "https://drive.google.com/drive/u/1/folders/1Mqwle1hu3kbrvF3AOlR33lZV78XswxqL"
       },
       "Labs": {
+        "2025-26": "https://drive.google.com/drive/folders/1gp7JwRMBlIz6ouogRFXG0y5FoQiACmO6",
         "2024-25": "https://drive.google.com/drive/folders/1g-SdZW0ePfotUpueeFyj6axnp7RLOE1y",
         "2023-24": "https://drive.google.com/drive/folders/1-VLHhd7hPeXdQWAwmbM-Tllvo0kn_KxT",
         "2022-23": "https://drive.google.com/drive/folders/1-1lSG_Mkcm38lut-gghxogCbuRnSPR-X"
@@ -43,6 +51,7 @@
         "2022-23 Anup and Hemant Sir": "https://drive.google.com/drive/folders/1aTi8YID_SaBDJ50D3C78BKxHm2api-90"
       },
       "Practice Problems": {
+        "2025-26": "https://docs.google.com/document/d/1G5v8pWO9UXLmIYiV4AyaJj41Ja79na_H/view",
         "2024-25": "https://drive.google.com/drive/folders/1HQ1vWQ6mLa3HhLj1qjIUqKg15u9Rs2SX",
         "2023-24": "https://docs.google.com/document/d/18qavDA7gKLHS2oHCgYJS10OJAmK93LLx/edit?ouid=102544954867664250470&rtpof=true&sd=true",
         "2022-23": "https://drive.google.com/drive/folders/19_je9WYA4uwhUkQxUHJVLRJ63y-itYUe"
@@ -51,6 +60,7 @@
         "2023-24 By Darelife": "https://github.com/darelife/cs-f111"
       },
       "Drive": {
+        "2025-26": "https://drive.google.com/drive/folders/1aXWFdULesJxVjz8ertrebxKyM2L5Mbax",
         "2024-25": "https://drive.google.com/drive/folders/1BoL8aQ9Ne72jRwBupBQ2-guAD4VWYjXz",
         "2023-24 By Jashan Gupta": "https://drive.google.com/drive/folders/1MiTbSEEMjg8e3ZzebdGFXDj2EqJEzzIt",
         "2023-24 By Atharva Pandit": "https://drive.google.com/drive/folders/1p4Ngb6AUTypkL8xOPvSk7vIH55Pi1Woz",
@@ -392,10 +402,45 @@
       },
       "Drive Links": {
         "2024-25": "https://drive.google.com/drive/folders/1pbjrVQX5ce4UQcqUgyhAj6szYKoIMobf"
+      },
+      "Math F101 replaced this course in 2025": {
+        "Math F101 - Multivariable Calculus": "./mathf101"
+      }
+    },
+    "mathf101": {
+      "Handouts": {
+        "2025-26": "https://drive.google.com/file/d/1Xr5EdhmU25MAjky_3oFEXkY-QdKj2jb7/view"
+      },
+      "Books": {
+        "Thomas Calc 12th Ed": "https://drive.google.com/file/d/1QmUNXhp4qcsptkI_86RFwcC96-xcJOJI/",
+        "Thomas Calc 12th Ed Solutions": "https://drive.google.com/file/d/1Y-jgKMbRnI0-kLrw4kfRSe6MC10xFS-F/",
+        "Thomas Calc 14th Ed": "https://drive.google.com/file/d/1pJ8538Nzs8YrNtPdSBs1U3ELNiMXl93I/"
+      },
+      "Tutorials": {
+        "2025-26": "https://drive.google.com/drive/folders/1NzpoxXtOV-iYK-imONfFWyVadWbMUH3a"
+      },
+      "Slides": {
+        "2025-26": "https://drive.google.com/drive/folders/1I4CiSGp0uIeY6zd1LPwqw8PQjRit29Ry"
+      },
+      "Midsemester Exam": {
+        "2025-26 Eval+Soln": "https://drive.google.com/file/d/134rVNNZ5MzmZXjR9Gh17qRJY6P9Hs9Lk/view"
+      },
+      "Comprehensive Exam": {
+        "2025-26 Eval+Soln": "https://drive.google.com/file/d/1O-LFBl9ohgd0-mWmgKqBiv2BI4bBrdCr/view"
+      },
+      "Quiz 1": {
+        "2025-26": "https://drive.google.com/file/d/1cRs5ZFZyD6-1tGdGBQGpWjrKxTKyPvC0/view"
+      },
+      "Quiz 2": {
+        "2025-26": "https://drive.google.com/file/d/1gF2zSjeMRpqjUqsRgReQjyglkw_zK2pZ/view"
+      },
+      "Drive Links": {
+        "2025-26": "https://drive.google.com/drive/folders/1-YsqpT9A6zW5h1uMYidiYxaUc23y5Thj"
       }
     },
     "mathf113": {
       "Handouts": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1f5rga0UYrdaR4xDdiqujOBOpiUB91CzX/view",
         "2024-25 Sem 2": "https://drive.google.com/file/d/1CxG4sjUEWfm58TMend5AgOO3Jlc3qVc9/view",
         "2024-25 Sem 1": "https://drive.google.com/file/d/1-ylTFAR25dQUM9BnfGAZk5xpKgjhpEfN/view"
       },
@@ -406,12 +451,15 @@
         "Solution Booklet": "https://drive.google.com/file/d/1b_Dhlsqpuu6HoQOlsXXXOE6I_BgxSmlv/view"
       },
       "Tutorials": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1fGOViGR_9VB16eyY4rwyB2pXiDZzJxDC",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1qVLyJXv8uxxGX5RllEOcb_kAFD9F_rDc"
       },
       "Slides": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1W7L8-7ItI6lM7k-CSxxQwdx-sCiZa1O-",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/13OA_WM976r8ZGEa4GPctjnWX0A9KO5IG"
       },
       "Midsemester Exam": {
+        "2025-26 Sem 1 QP+Soln": "https://drive.google.com/file/d/1YGrILIxxqUtAWPspwaZqe5SjQ6WiEmwd/view",
         "2024-25 Sem 2 QP": "https://drive.google.com/file/d/1voTOdLHn8nZBQlSQEGv2jdGb1ss1eoVo/view",
         "2024-25 Sem 2 Solutions": "https://drive.google.com/file/d/1LKakQ5PkK3WTFisy-a51d6g39ZsmK0T5/view",
         "2024-25 Sem 2 Q5 Correction": "https://drive.google.com/file/d/1LLJ3AsBW2ZU87nIgUt43Iz9DWZ16TIND/view",
@@ -419,19 +467,25 @@
         "2024-25 Sem 1 Solutions": "https://drive.google.com/file/d/12M2-9o8EFdPQd_lc9F6EhAGCZ9uqdRUK/view"
       },
       "Comprehensive Exam": {
+        "2025-26 Sem 1 Part A": "https://drive.google.com/file/d/1fgreak8tCR0S7ZUe5-9ZHteIXsBOvFek/view",
+        "2025-26 Sem 1 Part B QP": "https://drive.google.com/file/d/1SmJMvc3OuYMgBmcyFcT5PjkxyaTOe-00/view",
+        "2025-26 Sem 1 Part B Solution": "https://drive.google.com/file/d/1cfg61pAVrhXk-WDB2IcLg8axA1skBQ-r/view",
         "2024-25 Sem 1 Part A": "https://drive.google.com/file/d/1bAMuJmRzhF_792f-eoYGwy-3eo-XBcWM/view",
         "2024-25 Sem 1 Part B QP": "https://drive.google.com/file/d/1TJsgKKhBeQzy00znzJZGNBA79iGDmiSu/view",
         "2024-25 Sem 1 Part B Solution": "https://drive.google.com/file/d/1TGyhyHrvCvBEBOxXIJRaMVsLihc5ZvT1/view"
       },
       "Quiz 1": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1MWCrKtVJ_dZy-wy6huPQH8st9FO9B3wY/view",
         "2024-25 Sem 2": "https://drive.google.com/file/d/1X8xAGKQ0LKzOHjwN7XOZF9tcGJVRiVSu/view",
         "2024-25 Sem 1": "https://drive.google.com/file/d/1g-fXQELQyR9eO86Vs8_4o2UkgVFG717Y/view"
       },
       "Quiz 2": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1lIikhp0vmySG4QAOft05b5zR_c81iFNu/view",
         "2024-25 Sem 2": "https://drive.google.com/file/d/1rFC12BFuhJ94-S7Yh2wIAtlUWPickdcp/view",
         "2024-25 Sem 1": "https://drive.google.com/file/d/1WS3dPygZeGrQeFG1qp_4BSks5K-UfEcv/view"
       },
       "Drive Links": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1UHkDz3iFFjHLhu7L6JRVBjg7veB57tRA",
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1Un0mONLkfip6V5yi3Ut1LpoQIvBwwhcW",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1_4M9rnVFo0ErDmGOBqB1DLmd5XJsUJRe"
       }
@@ -468,6 +522,9 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1tZIuF17eIzXv8hkxbMmiDiB1Pg2aHwg3",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1DbM3UUnGSQhMmX091JfTB3GIPwWaGOMi"
+      },
+      "BITS F103 replaced this course in 2025": {
+        "BITS F103 - Engineering Design and Prototyping": "./bitsf103"
       }
     },
     "bitsf111": {
@@ -561,6 +618,32 @@
       "Drive Links": {
         "2024-25": "https://drive.google.com/drive/folders/1PvBc-blwmEb-z_YlTSjKfQDBpt5IKLWc"
       }
+    },
+    "bitsf103": {
+      "Handouts": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1BiQtTIJzQHzTQdU-DUR0WM4BlWXkqQjK/view"
+      },
+      "Workshop": {
+        "2025-26 Sem 1 Manual": "https://drive.google.com/file/d/1GXwrZ_WkAkn3G5NRw6HMHhhUyWfpyt1n/view"
+      },
+      "Books": {
+        "TextBook": "https://drive.google.com/file/d/1IPIU6EOvGJjiaRHF0OwzAU0EecSNX4zG/view"
+      },
+      "Solutions": {
+        "Booklet": "https://drive.google.com/file/d/1EfVf8S9_cwbU9CnOw_ciJ1fseowo0ZQk/view",
+        "Solutions - Aarsh Bhavsar": "https://drive.google.com/drive/folders/1jLk3eCF0N3m_BKQAbb5rIvmW7zDuswQU",
+        "Solutions - Krish Garg": "https://drive.google.com/drive/folders/1dZvDv_H9MRmP3Ryjpa5HdhAhxTdgTOpw"
+      },
+      "Comprehensive Exam": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1aDDewYxN5IyJV50sHXwsPEIvCH0sKtFX"
+      },
+      "Miscellaneous": {
+        "Video Links": "https://drive.google.com/file/d/1xV8JA3N3L_yCSyGkOstlKjQn0qckoCpe/view",
+        "Study Material": "https://drive.google.com/drive/folders/12UQyaULkAm-fPPWb2J8SwHZor1iVZUs8"
+      },
+      "Drive Links": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1egCgrHWNp5IYvaPd23DbHFIwN5H0ByI_"
+      }
     }
   },
   "bio": {
@@ -585,6 +668,9 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1JaH-i6yD0lm1EpbWBVadO4yt8j9njhV_",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1qPo8ENEt1epaJOMG0a636W9UdDWNqWbf"
+      },
+      "Bio F101 replaced this course in 2025": {
+        "Bio F101 - Intro to Biological Sciences": "./biof101"
       }
     },
     "biof111": {
@@ -616,6 +702,37 @@
       },
       "Drive Links": {
         "2024-25": "https://drive.google.com/drive/folders/141rqPNCqfFFHB4X5HMT8Bll6t-kUct09"
+      },
+      "Bio F101 replaced this course in 2025": {
+        "Bio F101 - Intro to Biological Sciences": "./biof101"
+      }
+    },
+    "biof101": {
+      "Handouts": {
+        "2025-26": "https://drive.google.com/file/d/1tS_lumqJYKFNg-64DIYiZeHsE2QWf6qn/view"
+      },
+      "Books": {
+        "Campbell": "https://drive.google.com/file/d/1Z9TCJklVH-WWzKeqVz09h_q93dVgqQBJ/view",
+        "Enger Ross": "https://drive.google.com/file/d/1X0kUwkRmyTN_gNFAwaOUhWtkRRkuBqSI/view",
+        "Question Bank": "https://drive.google.com/file/d/1sI_QYPsCQoNtrMTgoUJo0nNWTEnDWsAV/view"
+      },
+      "Slides": {
+        "2025-26": "https://drive.google.com/drive/folders/16-czw479QijaEFzRpg4TzE38urNeGqpH"
+      },
+      "Comprehensive Exam": {
+        "2025-26 OB+CB with Soln": "https://drive.google.com/file/d/1vB_n3c2CXTeEv0rKC_0zaHts_IdKORC1/view"
+      },
+      "Quiz 1": {
+        "2025-26": "https://drive.google.com/file/d/1Fk0OH-Ge-Uc3FQNKxNDo2A8WXfZkXkoA/view"
+      },
+      "Quiz 2": {
+        "2025-26": "https://drive.google.com/file/d/1-b2kmX5gOY2crACqpPiN4QvQX1VPCDNV/view"
+      },
+      "Quiz 3": {
+        "2025-26": "https://drive.google.com/file/d/1-l-SWsr9egrK6TbwszY4Q8MUnV7h_Xvn/view"
+      },
+      "Drive Links": {
+        "2025-26": "https://drive.google.com/drive/folders/1a86ENn6WsaTpTYdbllAcrC33NC25AXI8"
       }
     }
   },
@@ -639,6 +756,9 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1MAmHceMPpQs26xJDJKD0fQU7ZkJFxPIW",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1y5a7Z4Rej8AWpi7PbryZJC41Bj7sfzZ7"
+      },
+      "Chem F101 replaced this course in 2025": {
+        "Chem F101 - Fundamentals of Chemistry": "./chemf101"
       }
     },
     "chemf111": {
@@ -670,6 +790,36 @@
       "Drive Links": {
         "2024-25": "https://drive.google.com/drive/folders/10HlZJxvsoaKcah49MHxQThTgOwkEAVUX",
         "2023-24 By Atharva Pandit": "https://drive.google.com/drive/folders/1x9NE_X8DqTZk_tzlTOETOdTroqHL7WrD"
+      },
+      "Chem F101 replaced this course in 2025": {
+        "Chem F101 - Fundamentals of Chemistry": "./chemf101"
+      }
+    },
+    "chemf101": {
+      "Handouts": {
+        "2025-26": "https://drive.google.com/file/d/1XH-2YW2Y3vJUemdJdq14bthk2FvBxuUX/view"
+      },
+      "Books": {
+        "JD Lee Concise Inorganic Chemistry": "https://drive.google.com/file/d/1cR6E8WPR5KJhmGr4qnDq2q4g3_3PJCvV/view",
+        "Solomon Fryhle Organic Chemistry": "https://drive.google.com/file/d/1cVAdl3jO8LVLeNMMqDE55O8Z-hu406Mx/view",
+        "Elements of Physical Chemistry Atkins Intl Ed": "https://drive.google.com/file/d/1DwfeLDslItRfwkdC-dYaeouBinOMfS58/view",
+        "Atkins 5th Ed": "https://drive.google.com/file/d/1yanlflurijW6nHNcbd7U9clH14WqTbjK/",
+        "Atkins 5th Ed Solutions": "https://drive.google.com/file/d/1ZvefsOt_NOgqYRQErkF6QUCZ7Xc18Bl0/"
+      },
+      "Tutorials": {
+        "2025-26": "https://drive.google.com/drive/folders/1Rx8eFhnB80GvyyIv7wbUoiLNiNn3TfRr"
+      },
+      "Slides": {
+        "2025-26": "https://drive.google.com/drive/folders/1etymrFDnqU0MIPPWGTmMpltLKGgj1gMS"
+      },
+      "Midsemester Exam": {
+        "2025-26": "https://drive.google.com/file/d/1fo_X_VmmX5NCYYUtLKLw6K7FvCMEwxS-/view"
+      },
+      "Comprehensive Exam": {
+        "2025-26": "https://drive.google.com/file/d/17AlhbO17MDHBpsgx3q7yczEnoKsymPmk/view"
+      },
+      "Drive Links": {
+        "2025-26": "https://drive.google.com/drive/folders/1oUsW061ro9UyQNQhFCWxGPOLlQXEWF4k"
       }
     }
   },
@@ -688,6 +838,9 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1rLgHYdrbYS-GFtl2SvwWsFZNq9G3ITWv",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/17V5ZGhm9NDqi1Fbr7sOxbBbanyTXdrbY"
+      },
+      "Phy F101 replaced this course in 2025": {
+        "Phy F101 - Oscillations and Waves": "./phyf101"
       }
     },
     "phyf111": {
@@ -738,6 +891,45 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1K-SBPFVICsFriM0mazJUjPIaWG7VlchJ",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1woevf9_K0xPAbC9Ox9mnUgnMa-LtGZdK"
+      },
+      "Phy F101 replaced this course in 2025": {
+        "Phy F101 - Oscillations and Waves": "./phyf101"
+      }
+    },
+    "phyf101": {
+      "Handouts": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1JneQfrbXaCUjHq8LlFBuz0q_uMb1qL8h/view",
+        "2025-26 Sem 1 Lab": "https://drive.google.com/file/d/1kbP0hSgLHaZhcOwLANLtzUsU-Ck0IOqx/view"
+      },
+      "Books": {
+        "AP French": "https://drive.google.com/file/d/1-TMpw2OuX5V316tUaK2HeR2lk3KecBZt/view"
+      },
+      "Tutorials": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1KoCOLXMUjBOKyNdOzbY_Db0632puPoI5"
+      },
+      "Slides": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1_VV_ReeGSqkJfUB0cMi4hLJQGSz_oPBw"
+      },
+      "Midsemester Exam": {
+        "2025-26 Sem 1 QP": "https://drive.google.com/file/d/1OU9IcHtljl1XSDxS5ZUEpRhUARAaoNpy/view",
+        "2025-26 Sem 1 Soln": "https://drive.google.com/file/d/1CJZ0VpSsMp1TTnL2h0JbQkr2IWNUkFEJ/view"
+      },
+      "Comprehensive Exam": {
+        "2025-26 Sem 1 Part A": "https://drive.google.com/file/d/1s3Nv3de3ImK3vBB3rqat7-DfPsXomg5M/view",
+        "2025-26 Sem 1 Part B QP": "https://drive.google.com/file/d/1xD9L7nVAVh75zx6HnZy6oJktz5cTIIQf/view",
+        "2025-26 Sem 1 Part B Solution": "https://drive.google.com/file/d/1mZU3H3vKAnW9Qn7QICTd1XjlN3GH7cea/view"
+      },
+      "Quiz 1": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1Jx0CLIUjNscUMOqRHd5eEOJO7fP1Jwa8/view"
+      },
+      "Quiz 2": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1BEugv41Aqt9O5QKvtNxh9KN8x2Fc0Xe8/view"
+      },
+      "Quiz 3": {
+        "2025-26 Sem 1": "https://drive.google.com/file/d/1SYTbCaS5qkcW_voGP78m6yBQVvGSiWNx/view"
+      },
+      "Drive Links": {
+        "2025-26 Sem 1": "https://drive.google.com/drive/folders/1ovk9CJz6q8Ja9jh3mNlE4_g_thDU5QEu"
       }
     }
   },
@@ -765,6 +957,9 @@
       "Drive Links": {
         "2024-25 Sem 2": "https://drive.google.com/drive/folders/1U_F1xaeP5eQyDndvUDxsiQy6ebniXnBW",
         "2024-25 Sem 1": "https://drive.google.com/drive/folders/1X_femhmEewGtnx1BSXwu_-pwUWbgXwzp"
+      },
+      "BITS F103 replaced this course in 2025": {
+        "BITS F103 - Engineering Design and Prototyping": "../bits/bitsf103"
       }
     }
   }
